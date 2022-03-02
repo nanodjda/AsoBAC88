@@ -143,7 +143,7 @@
                 <p>©Aarke Soluciones  - 2022 </p>
             </footer>
         </div>
-    </form> <!-- Comentario prueba HTML GIT-->
+    </form>
     <script src="../../js/MainJs.js"></script>
 </body>
 </html>
