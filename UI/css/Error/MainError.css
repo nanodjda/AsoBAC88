@@ -1,0 +1,18 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    /*border: solid 1px #000000;*/
+}
+
+form div {
+    text-align: center;
+}
+
+form div p a{
+    text-align: center;
+}
+
+#PiePag {
+    padding: 20px;
+    text-align: center;
+}

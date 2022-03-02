@@ -1,0 +1,103 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    /*border: solid 1px #000000;*/
+}
+
+body {
+    background-image: url('../../Img/fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-y: 100px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*********************Encabezado***************************************/
+
+#encab {
+    margin: 0 0 30px 0;
+    background-image: url('../../Img/fondo-blanco-patrones-triangulares_1017-18410.jpg');
+}
+
+#encab li {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#titulo{
+    margin-left: 575px;
+}
+
+    #titulo h1 {
+        text-align: center;
+    }
+
+#registro{
+    margin-left: 400px;
+}
+
+#registro a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#registro a:hover {
+    color: red;
+    text-decoration: underline;
+}
+/*****************************Principal**********************************/
+
+.text {
+    font-size: 30px;
+    margin:  0 33%;
+    padding: 50px;
+    border: solid 3px #000000;
+}
+
+#txt_Usuario {
+    margin-left: 50px;
+    background-color: #f3f1f1;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#txt_Pass {
+    background-color: #f3f1f1;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#boton {
+    padding: 20px;
+    margin-left: 200px;
+    font-size: medium
+}
+#btn_ingresar {
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+#btn_ingresar:hover {
+    background-color: cornflowerblue;
+}
+
+#ResetPass {
+    text-align: end;
+    font-size: 15px;
+}
+/***********************Imagen****************************************/
+.img p{
+    margin-left: 825px;
+}
+
+/***********************Pie de página*********************************/
+#PiePag {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
