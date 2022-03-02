@@ -27,12 +27,12 @@ body {
 }
 
 #titulo{
-    margin-left: 575px;
+    margin-left: 500px;
 }
 
-    #titulo h1 {
-        text-align: center;
-    }
+#titulo h1 {
+    text-align: center;
+}
 
 #registro{
     margin-left: 400px;
@@ -71,26 +71,38 @@ body {
 
 #boton {
     padding: 20px;
-    margin-left: 200px;
+    /*margin-left: 200px;*/
+    text-align:center;
     font-size: medium
 }
 #btn_ingresar {
+    width: 200px;
+    height: 40px;
     border-radius: 6px;
     cursor: pointer;
-    background-color: blue;
+    background-color: #007FFF;
+    font-weight: bold;
 }
 
 #btn_ingresar:hover {
-    background-color: cornflowerblue;
+    background-color: dodgerblue;
 }
 
 #ResetPass {
     text-align: end;
     font-size: 15px;
 }
+#ResetPass a{
+    text-decoration: none;
+}
+
+#ResetPass a:hover{
+    color: red;
+    text-decoration: underline;
+}
 /***********************Imagen****************************************/
 .img p{
-    margin-left: 825px;
+    text-align:center;
 }
 
 /***********************Pie de página*********************************/

@@ -21,9 +21,9 @@
                                 Por favor ingrese su usuario <br /> y contraseña.
                             </h1>
                         </li>
-                        <li id="registro">
+                        <%--<li id="registro">
                             <a href="wfrm_Registro.aspx">Registrarse</a>
-                        </li>
+                        </li>--%>
                     </ul>
                 </div>
             </header>
