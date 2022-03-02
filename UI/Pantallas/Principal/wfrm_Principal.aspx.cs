@@ -18,6 +18,5 @@ namespace UI.Pantallas.Principal
         {
             Response.Redirect("~/Pantallas/Modulo_IV/wfrm_MantCred.aspx");
         }
-        // Editado por David, esto es un ejemplo de Git
     }
 }
