@@ -18,5 +18,10 @@ namespace UI.Pantallas.Principal
         {
             Response.Redirect("~/Pantallas/Modulo_IV/wfrm_MantCred.aspx");
         }
+
+        protected void btn_UserManage_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Pantallas/Principal/wfrm_Registro.aspx");
+        }
     }
 }

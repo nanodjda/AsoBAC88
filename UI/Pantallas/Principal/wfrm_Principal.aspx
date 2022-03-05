@@ -125,7 +125,7 @@
                             </div>
                             <div class="principal">
                                     <p>
-                                        <asp:Button id="btn_UserManage" class="btn_accion" runat="server" Text="Manejo de Usuarios" ForeColor="White"/>
+                                        <asp:Button id="btn_UserManage" class="btn_accion" runat="server" Text="Manejo de Usuarios" ForeColor="White" OnClick="btn_UserManage_Click"/>
                                     </p>
                                     <p>
                                         <asp:Button id="btn_Access" class="btn_accion" runat="server" Text="Control de Accesos" ForeColor="White"/>

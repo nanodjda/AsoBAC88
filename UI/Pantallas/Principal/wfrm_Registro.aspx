@@ -25,7 +25,7 @@
                                 </h1>
                         </li>
                         <li id="salir">
-                            <a href="wfrm_Login.aspx">Salir</a>
+                            <a href="wfrm_Principal.aspx">Salir</a>
                         </li>
                     </ul>
                 </div>
@@ -42,6 +42,10 @@
                             <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px"></asp:TextBox>
                         </p>
                         <p>
+                            <asp:Label ID="lbl_apellidos" runat="server" Text="Apellidos: "></asp:Label><br /><br />
+                            <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px"></asp:TextBox>
+                        </p>
+                        <p>
                             <asp:Label ID="lbl_ced" runat="server" Text="Cédula: "></asp:Label><br /><br />
                             <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px" CausesValidation="true"></asp:TextBox>
                         </p>
@@ -54,16 +58,17 @@
                             <asp:TextBox class="textbox" runat="server" Height="25px" TextMode="Email" Width="250px"></asp:TextBox>
                         </p>
                         <p>
-                            <asp:Label ID="lbl_direc" runat="server" Text="Dirección: "></asp:Label><br /><br />
+                            <asp:Label ID="Label1" runat="server" Text="Ingrese su dirección "></asp:Label><br /><br />
+                            <asp:Label ID="lbl_direc" runat="server" Text="Provincia: "></asp:Label><br /><br />
                             <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px"></asp:TextBox>
                         </p>
                         <p>
-                            <asp:Label ID="lbl_pass" runat="server" Text="Contraseña: "></asp:Label><br /><br />
-                            <asp:TextBox class="textbox" runat="server" TextMode="Password" Height="25px" Width="250px"></asp:TextBox>
+                            <asp:Label ID="lbl_pass" runat="server" Text="Canton: "></asp:Label><br /><br />
+                            <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px"></asp:TextBox>
                         </p>
                         <p>
-                            <asp:Label ID="lbl_pass2" runat="server" Text="Confirmar Contraseña"></asp:Label><br /><br />
-                            <asp:TextBox class="textbox" runat="server" TextMode="Password" Height="25px" Width="250px"></asp:TextBox>
+                            <asp:Label ID="lbl_pass2" runat="server" Text="Distrirto"></asp:Label><br /><br />
+                            <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px"></asp:TextBox>
                         </p>
                         <p>
                             <asp:Button ID="btn_cont" runat="server" Text="Continuar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>

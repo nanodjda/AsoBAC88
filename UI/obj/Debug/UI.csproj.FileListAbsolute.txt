@@ -170,8 +170,8 @@ C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\bin\roslyn\VBCS
 C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\obj\Debug\UI.csproj.AssemblyReference.cache
 C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\obj\Debug\UI.dll
 C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\obj\Debug\UI.pdb
+C:\Users\Dsola\OneDrive\Escritorio\Proyecto_Analisis\AsoBAC88\UI\obj\Debug\UI.csproj.AssemblyReference.cache
