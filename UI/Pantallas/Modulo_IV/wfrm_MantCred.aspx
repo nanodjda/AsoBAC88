@@ -29,7 +29,7 @@
                             <h2>Seleccione una opción</h2>
                         </li>
                         <li id="salir">
-                            <a href="../Principal/wfrm_Login.aspx">Salir</a>
+                            <a href="../Principal/wfrm_Principal.aspx">Salir</a>
                         </li>
                     </ul>
                 </div>
@@ -47,10 +47,8 @@
                         <div id="tabs-1">
                             <div id="principal">
                                 <h2>
-                                    <p>
-                                        Crear un nuevo crédito
-                                    </p>
-                                </h2>
+                                     Crear un nuevo crédito
+                                 </h2>
                                 <p>
                                     <asp:Label ID="lbl_NomCred" runat="server" Text="Nombre para el crédito."></asp:Label><br />
                                     <br />
@@ -73,46 +71,63 @@
                         </div>
                         <div id="tabs-2">
                             <div class="principal">
-                                <h2>
-                                    <p>
-                                        Seleccione una opción
+                                    <p class="p">
+                                        Ingrese el número de <br />
+                                        cédula del asociado
                                     </p>
-                                </h2>
                                 <p>
-                                    <asp:DropDownList ID="DropDownList2" runat="server">
+                                    <asp:TextBox class="Textbox" ID="TextBox10" runat="server"></asp:TextBox>
+                                </p>
+                                <p>
+                                    <asp:Button class="boton" ID="Button1" runat="server" Text="Consultar"              Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
+                                </p>
+                            </div>
+                            <div class="principal">
+                                <p>
+                                    <asp:Label ID="Label1" runat="server" Text="Nombre del asociado."></asp:Label><br />
+                                    <br />
+                                    <asp:TextBox class="Textbox" ID="TextBox1" runat="server" ReadOnly="True"></asp:TextBox>
+                                </p>
+                                <p>
+                                    <asp:Label ID="Label2" runat="server" Text="Elija la línea de crédito"></asp:Label><br />
+                                    <br />
+                                    <asp:DropDownList class="Textbox" ID="DropDownList1" runat="server">
                                         <asp:ListItem>Crédito de Estudio</asp:ListItem>
                                         <asp:ListItem>Crédito Personal</asp:ListItem>
                                         <asp:ListItem>Crédito Fiduciario</asp:ListItem>
                                     </asp:DropDownList>
                                 </p>
-                            </div>
-                            <div class="principal">
                                 <p>
-                                    <asp:Label ID="Label1" runat="server" Text="Nombre para el crédito."></asp:Label><br />
+                                    <asp:Label ID="Label3" runat="server" Text="Tasa de interés"></asp:Label><br />
                                     <br />
-                                    <asp:TextBox class="Textbox" ID="TextBox1" runat="server"></asp:TextBox>
+                                    <asp:TextBox class="Textbox" ID="TextBox3" runat="server" ReadOnly="True"></asp:TextBox>
                                 </p>
                                 <p>
-                                    <asp:Label ID="Label2" runat="server" Text="Elija la tasa de interés"></asp:Label><br />
+                                    <asp:Label ID="Label10" runat="server" Text="Plazo del crédito"></asp:Label><br />
                                     <br />
-                                    <asp:TextBox class="Textbox" ID="TextBox2" runat="server"></asp:TextBox>
+                                    <asp:TextBox class="Textbox" ID="TextBox11" runat="server" ReadOnly="True"></asp:TextBox>
                                 </p>
                                 <p>
-                                    <asp:Label ID="Label3" runat="server" Text="Elija los plazos del crédito"></asp:Label><br />
+                                    <asp:Label ID="Label11" runat="server" Text="Monto inicial"></asp:Label><br />
                                     <br />
-                                    <asp:TextBox class="Textbox" ID="TextBox3" runat="server"></asp:TextBox>
+                                    <asp:TextBox class="Textbox" ID="TextBox12" runat="server" ReadOnly="True"></asp:TextBox>
                                 </p>
                                 <p>
-                                    <asp:Button class="boton" ID="Button1" runat="server" Text="Consultar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
+                                    <asp:Label ID="Label12" runat="server" Text="Cuota"></asp:Label><br />
+                                    <br />
+                                    <asp:TextBox class="Textbox" ID="TextBox13" runat="server" ReadOnly="True"></asp:TextBox>
+                                </p>
+                                <p>
+                                    <asp:Label ID="Label13" runat="server" Text="Saldo actual"></asp:Label><br />
+                                    <br />
+                                    <asp:TextBox class="Textbox" ID="TextBox14" runat="server" ReadOnly="True"></asp:TextBox>
                                 </p>
                             </div>
-                            </div>
+                        </div>
                         <div id="tabs-3">
                             <div class="principal">
                                 <h2>
-                                    <p>
                                         Seleccione una opción
-                                    </p>
                                 </h2>
                                 <p>
                                     <asp:DropDownList ID="DropDownList3" runat="server">
@@ -146,9 +161,7 @@
                         <div id="tabs-4">
                             <div class="principal">
                                 <h2>
-                                    <p>
                                         Seleccione una opción
-                                    </p>
                                 </h2>
                                 <p>
                                     <asp:DropDownList ID="DropDownList4" runat="server">
