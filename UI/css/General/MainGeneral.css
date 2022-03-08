@@ -1,6 +1,7 @@
 ﻿* {
     padding: 0;
     margin: 0;
+    list-style: none;
     /*border: solid 1px #000000*/
 }
 
@@ -26,14 +27,16 @@ body {
 #encab #titulo {
     text-align: center;
     margin: 0 auto;
+    margin-left: auto;
     align-items: center;
     vertical-align: middle;
 }
 
-#salir #salir1 a {
+#salir #salir1 {
     font-size: 25px;
     text-decoration: none;
-    margin: 0 80px 0 0;
+    margin: 0 100px 0 0;
+    padding: 0 0 0 100px;
 }
 
 #salir a:hover {

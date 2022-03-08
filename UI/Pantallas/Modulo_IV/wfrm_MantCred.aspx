@@ -27,7 +27,7 @@
                     </section>
                     <section id="titulo">
                         <h1>Bienvenido</h1>
-                        <h2>Seleccione una opcion</h2>
+                        <h2>Seleccione una opción</h2>
                     </section>
                     <section id="salir">
                         <ul>
