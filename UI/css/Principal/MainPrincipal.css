@@ -1,51 +1,5 @@
-﻿* {
-    padding: 0;
-    margin: 0;
-    /*border: solid 1px #000000*/
-}
-
-body {
-    background-image: url('../../Img/fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position-y: 150px;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*************************Encabezado*************************************/
-
-#encab {
-    background-image: url('../../Img/fondo-blanco-patrones-triangulares_1017-18410.jpg');
-    margin: 0 0 30px 0;
-}
-
-#encab li {
-    display: inline-block;
-    padding: 10px;
-    vertical-align: middle;
-}
-
-#titulo {
-    margin-left: 700px;
-    text-align: center;
-}
-
-#salir {
-    margin-left: 400px;
-}
-
-#salir a {
-    font-size: 25px;
-    text-decoration: none;
-}
-
-#salir a:hover {
-    color: red;
-    text-decoration: underline;
-}
-
-/***************************Principal*********************************/
+﻿
+@import url('../General/MainGeneral.css');
 
 main #menu #tabs{
     width: 1000px;
@@ -95,12 +49,4 @@ main #menu #tabs{
 .btn_accion:hover {
     background-color: dodgerblue;
 }
-
-/**************************Pie de Página*****************************/
-
-#PiePag {
-    padding: 20px;
-    text-align: center;
-}
-
 

@@ -11,23 +11,29 @@
 <body>
     <form id="form1" runat="server">
         <div id="main">
-            <header>
+            <%--***********************************************************Encabezado***********************************************************************************************--%>
+           <header>
                 <div id="encab">
-                    <ul>
-                        <li id="logo">
-                            <img src="../../Img/20220220_132111.png" width="200"/>
-                        </li>
-                        <li id="titulo">
-                            <h1>
-                                Reestablecer contraseña
-                            </h1>
-                        </li>
-                        <li id="Login">
-                            <a href="wfrm_Login.aspx">Ir a Login</a>
-                        </li>
-                    </ul>
+                    <section id="logo">
+                        <ul>
+                            <li id="logo1">
+                                <img src="../../Img/20220220_132111.png" width="200"/>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="titulo">
+                                <h1>Reestablecer contraseña</h1>
+                    </section>
+                    <section id="salir">
+                        <ul>
+                            <li id="salir1">
+                                 <a id="a_salir" href="wfrm_Login.aspx">Salir</a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </header>
+            <%--*********************************************************Principal****************************************************************************************************--%>
             <main>
                 <div id="contenido">
                     <div class="text">
@@ -44,6 +50,7 @@
                     </div>
                 </div>
             </main>
+            <%--*****************************************************Pie de Página*****************************************************************************************************--%>
             <footer id="PiePag">
                 <p>©Aarke Soluciones  - 2022 </p>
             </footer>

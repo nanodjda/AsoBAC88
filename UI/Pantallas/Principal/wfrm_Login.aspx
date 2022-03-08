@@ -10,23 +10,30 @@
 <body>
     <form id="Login" runat="server" aria-expanded="true" star="0 0">
         <div id="main">
-            <header>
+            <%--***********************************************************Encabezado****************************************************************--%>
+           <header>
                 <div id="encab">
-                    <ul>
-                        <li id="logo">
-                            <img src="../../Img/20220220_132111.png" width="200"/>
-                        </li>
-                        <li id="titulo">
-                            <h1>
-                                Por favor ingrese su usuario <br /> y contraseña.
-                            </h1>
-                        </li>
-                        <%--<li id="registro">
-                            <a href="wfrm_Registro.aspx">Registrarse</a>
-                        </li>--%>
-                    </ul>
+                    <section id="logo">
+                        <ul>
+                            <li id="logo1">
+                                <img src="../../Img/20220220_132111.png" width="200"/>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="titulo">
+                                <h1>Ingrese su usuario <br />
+                                y contraseña</h1>
+                    </section>
+                    <section id="salir">
+                        <ul>
+                            <li id="salir1">
+                                 <a id="a_salir" href="wfrm_Login.aspx"></a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </header>
+            <%--***********************************************************Principal******************************************************************--%>
             <main>
                 <div class="text">
                         <p id="usuario">
@@ -50,6 +57,7 @@
                     <img src="../../Img/Photo_1645204532393.png" width="450"/>
                 </p>
                 </div>
+            <%--***********************************************************Pie de página****************************************************************--%>
             <footer id="PiePag">
                 <p>©Aarke Soluciones  - 2022 </p>
             </footer>

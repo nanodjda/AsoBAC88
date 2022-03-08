@@ -18,20 +18,24 @@
 <%--*************************************************************Encabezado******************************************************--%>
             <header>
                 <div id="encab">
-                    <ul>
-                        <li id="logo">
-                            <img src="../../Img/20220220_132111.png" width="200"/>
-                        </li>
-                        <li id="titulo">
-                                <h1>
-                                Bienvenido
-                                </h1>
+                    <section id="logo">
+                        <ul>
+                            <li id="logo1">
+                                <img src="../../Img/20220220_132111.png" width="200"/>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="titulo">
+                                <h1>Bienvenido</h1>
                             <h2>Seleccione una opción</h2>
-                        </li>
-                        <li id="salir">
-                            <a href="wfrm_Login.aspx">Salir</a>
-                        </li>
-                    </ul>
+                    </section>
+                    <section id="salir">
+                        <ul>
+                            <li id="salir1">
+                                 <a id="a_salir" href="wfrm_Login.aspx">Salir</a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </header>
 <%--*************************************************************Principal********************************************************--%>
@@ -147,4 +151,3 @@
     <script src="../../js/MainJs.js"></script>
 </body>
 </html>
-<!--  Comentario de ejemplo  -->

@@ -16,22 +16,26 @@
     <form id="form1" runat="server">
         <div id="main">
 <%--*************************************************************Encabezado******************************************************--%>
-            <header>
+             <header>
                 <div id="encab">
-                    <ul>
-                        <li id="logo">
-                            <img src="../../Img/20220220_132111.png" width="200"/>
-                        </li>
-                        <li id="titulo">
-                                <h1>
-                                Bienvenido
-                                </h1>
-                            <h2>Seleccione una opción</h2>
-                        </li>
-                        <li id="salir">
-                            <a href="../Principal/wfrm_Principal.aspx">Salir</a>
-                        </li>
-                    </ul>
+                    <section id="logo">
+                        <ul>
+                            <li id="logo1">
+                                <img src="../../Img/20220220_132111.png" width="200"/>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="titulo">
+                        <h1>Bienvenido</h1>
+                        <h2>Seleccione una opcion</h2>
+                    </section>
+                    <section id="salir">
+                        <ul>
+                            <li id="salir1">
+                                 <a id="a_salir" href="../Principal/wfrm_Principal.aspx">Salir</a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </header>
 <%--*************************************************************Principal********************************************************--%>
@@ -46,9 +50,9 @@
                         </ul>
                         <div id="tabs-1">
                             <div id="principal">
-                                <h2>
+                                <p class="p">
                                      Crear un nuevo crédito
-                                 </h2>
+                                 </p>
                                 <p>
                                     <asp:Label ID="lbl_NomCred" runat="server" Text="Nombre para el crédito."></asp:Label><br />
                                     <br />

@@ -1,53 +1,5 @@
-﻿* {
-    margin: 0;
-    padding: 0;
-    /*border: solid 1px #000000;*/
-}
-
-body {
-    background-image: url('../../Img/fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position-y: 100px;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*********************Encabezado***************************************/
-
-#encab {
-    margin: 0 0 30px 0;
-    background-image: url('../../Img/fondo-blanco-patrones-triangulares_1017-18410.jpg');
-}
-
-#encab li {
-    display: inline-block;
-    padding: 10px;
-    vertical-align: middle;
-}
-
-#titulo{
-    margin-left: 500px;
-}
-
-#titulo h1 {
-    text-align: center;
-}
-
-#registro{
-    margin-left: 400px;
-}
-
-#registro a {
-    font-size: 25px;
-    text-decoration: none;
-}
-
-#registro a:hover {
-    color: red;
-    text-decoration: underline;
-}
-/*****************************Principal**********************************/
+﻿
+@import url('../General/MainGeneral.css');
 
 .text {
     font-size: 30px;
@@ -102,12 +54,6 @@ body {
 /***********************Imagen****************************************/
 .img p{
     text-align:center;
-}
-
-/***********************Pie de página*********************************/
-#PiePag {
-    padding: 20px;
-    text-align: center;
 }
 
 
