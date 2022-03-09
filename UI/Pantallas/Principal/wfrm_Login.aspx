@@ -35,6 +35,7 @@
             </header>
             <%--***********************************************************Principal******************************************************************--%>
             <main>
+                <section>
                 <div class="text">
                         <p id="usuario">
                             <asp:Label ID="lbl_Usuario" runat="server" Text="Usuario: "></asp:Label>
@@ -51,6 +52,7 @@
                             <a href="wfrm_ResetPass.aspx">¿Olvido su contraseña?</a>
                         </p>
                 </div>
+                    </section>
             </main>
             <div class="img">
                 <p>
