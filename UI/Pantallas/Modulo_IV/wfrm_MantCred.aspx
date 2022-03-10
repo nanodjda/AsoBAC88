@@ -47,6 +47,7 @@
                             <li><a href="#tabs-2">Consultar Crédito</a></li>
                             <li><a href="#tabs-3">Modificar Crédito</a></li>
                             <li><a href="#tabs-4">Eliminar crédito</a></li>
+                            <li><a href="#tabs-5">Aprovaciones</a></li>
                         </ul>
                         <div id="tabs-1">
                             <div id="principal">
@@ -196,6 +197,37 @@
                                 </p>
                             </div>
                         </div>
+                        <div id="tabs-5">
+                            <div class="principal">
+                                <p class="p">
+                                        Seleccione una opción
+                                </p>
+                                <p>
+                                    <asp:DropDownList ID="DropDownList5" runat="server">
+                                        <asp:ListItem>Crédito de Estudio</asp:ListItem>
+                                        <asp:ListItem>Crédito Personal</asp:ListItem>
+                                        <asp:ListItem>Crédito Fiduciario</asp:ListItem>
+                                    </asp:DropDownList>
+                                </p>
+                            </div>
+                            <div class="principal">
+                                <p>
+                                    <asp:Label Text="Nombre del asociado" runat="server" /><br />
+                                    <br />
+                                    <asp:TextBox Class="Textbox" ID="TextBox15" ReadOnly="true" text="Nombre y apellidos" ForeColor="LightGray" runat="server" />
+                                </p>
+                                <p>
+                                    <asp:Label Text="Fecha de asociación" runat="server" /><br />
+                                    <br />
+                                    <asp:TextBox Class="Textbox" ID="TextBox16" ReadOnly="false" Text="Tipo fecha" ForeColor="LightGray" runat="server" />
+                                </p>
+                                <p>
+                                    <asp:Label Text="Puesto" runat="server" /><br />
+                                    <br />
+                                    <asp:TextBox class="Textbox" ID="TextBox17" ReadOnly="true" ForeColor="LightGray" Text="Interino o Propiedad" runat="server" />
+                                </p>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </main>
