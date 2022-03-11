@@ -15,19 +15,24 @@
 <%--*****************************************************Encabezado********************************************************************--%>
             <header>
                 <div id="encab">
-                    <ul>
-                        <li id="logo">
-                            <asp:ImageButton ID="ImageButton1" runat="server" Width="200" ImageUrl="~/Img/20220220_132111.png"/>
-                        </li>
-                        <li id="titulo">
-                                <h1>
-                                Por favor ingrese sus datos para el registro
-                                </h1>
-                        </li>
-                        <li id="salir">
-                            <a href="wfrm_Principal.aspx">Salir</a>
-                        </li>
-                    </ul>
+                    <section id="logo">
+                        <ul>
+                            <li id="logo1">
+                                <img src="../../Img/20220220_132111.png" width="200"/>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="titulo">
+                        <h1></h1>
+                        <h2>Por favor ingrese sus datos para el registro</h2>
+                    </section>
+                    <section id="salir">
+                        <ul>
+                            <li id="salir1">
+                                 <a id="a_salir" href="../Principal/wfrm_Principal.aspx">Salir</a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </header>
 <%--**************************************************Principal************************************************************************--%>

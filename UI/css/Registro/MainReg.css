@@ -1,8 +1,8 @@
-﻿*{
+﻿/**{
     padding: 0;
-    margin: 0;
+    margin: 0;*/
     /*border: solid 1px #000000*/
-}
+/*}
 
 body {
     background-image: url('../../Img/fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg');
@@ -12,17 +12,17 @@ body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-}
+}*/
 
 /****************************Encabezado*************************************/
 
 /*header #encab ul {
     position: fixed;
-    top: 0;
+    top: 0;                                     Antes comentadp
     left: 0;
     z-index: 100;
 }*/
-#encab {
+/*#encab {
     background-image: url('../../Img/fondo-blanco-patrones-triangulares_1017-18410.jpg');
     margin: 0 0 30px 0;
 }
@@ -48,9 +48,11 @@ body {
 #salir a:hover{
     color: red;
     text-decoration: underline;
-}
+}*/
 
 /*/*****************************Main*******************************************/
+@import url('../General/MainGeneral.css');
+
 
 #contenido {
     /*border: solid 1px #00ff21;*/
