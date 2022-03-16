@@ -1,5 +1,5 @@
 ﻿
-@import url('../General/MainGeneral.css');
+@import url('../main.css');
 
 .text {
     font-size: 30px;
@@ -9,7 +9,6 @@
 }
 
 #txt_Usuario {
-    margin-left: 50px;
     background-color: #f3f1f1;
     border-radius: 6px;
     font-size: 20px;
@@ -26,6 +25,7 @@
     text-align:center;
     font-size: medium
 }
+
 #btn_ingresar {
     width: 200px;
     height: 40px;

@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="css\Error\MainError.css" />
     <Content Include="css\General\MainGeneral.css" />
+    <Content Include="css\main.css" />
     <Content Include="css\Mantenimiento Créditos\MainMantCred.css" />
     <Content Include="css\Matricula Ahorro\MainMatAhorro.css" />
     <Content Include="css\Perfil de Usuario\MainPerfil.css" />
