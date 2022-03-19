@@ -31,6 +31,9 @@ main #menu #tabs{
     display: inline-block;
 }
 
+#tabs-6 .principal {
+    display: inline-block;
+}
 
 .principal p {
     padding: 20px;

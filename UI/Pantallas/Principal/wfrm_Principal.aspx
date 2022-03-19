@@ -48,6 +48,8 @@
                             <li><a href="#tabs-3">Gestión de Créditos</a></li>
                             <li><a href="#tabs-4">Mantenimiento de la página</a></li>
                             <li><a href="#tabs-5">Seguridad</a></li>
+                            <li><a href="#tabs-6">Aprobaciones</a></li>
+                            
                         </ul>
                         <div id="tabs-1">
                             <div class="principal">
@@ -136,6 +138,24 @@
                                     </p>
                                     <p>
                                         <asp:Button id="btn_RegIng" class="btn_accion" runat="server" Text="Registro de Ingresos" ForeColor="White"/>
+                                    </p>
+                            </div>
+                        </div>
+                        <div id="tabs-6">
+                            <div class="principal">
+                                <p>
+                                    <img src="../../Img/Aprobaciones.png" width="350"/>
+                                </p>
+                            </div>
+                            <div class="principal">
+                                    <p>
+                                        <asp:Button id="Button1" class="btn_accion" runat="server" Text="Creación de Ahorros" ForeColor="White" OnClick="btn_UserManage_Click"/>
+                                    </p>
+                                    <p>
+                                        <asp:Button id="Button2" class="btn_accion" runat="server" Text="Creación de Créditos" ForeColor="White"/>
+                                    </p>
+                                    <p>
+                                        <asp:Button id="Button3" class="btn_accion" runat="server" Text="Solicitud de Créditos" ForeColor="White"/>
                                     </p>
                             </div>
                         </div>

@@ -26,7 +26,7 @@
                 <div class="contenido-central">
                     <p id="usuario">
                         <asp:Label ID="lbl_Usuario" runat="server" Text="Usuario: "></asp:Label>
-                        <asp:TextBox ID="txt_Usuario" runat="server" Height="25px"></asp:TextBox>
+                        <asp:TextBox ID="txt_Usuario" runat="server" Height="25px" onKeyPress="return SoloNumeros(event)"></asp:TextBox>
                     </p>
                     <p id="pass">
                         <asp:Label ID="lbl_Pass" runat="server" Text="Contraseña: "></asp:Label>
@@ -51,5 +51,6 @@
             </footer>
         </div>
     </form>
+    <script src="../../js/MainJs.js"></script>
 </body>
 </html>

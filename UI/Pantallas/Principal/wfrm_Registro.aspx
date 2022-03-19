@@ -52,11 +52,11 @@
                         </p>
                         <p>
                             <asp:Label ID="lbl_ced" runat="server" Text="Cédula: "></asp:Label><br /><br />
-                            <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px" CausesValidation="true"></asp:TextBox>
+                            <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px" CausesValidation="true" onKeyPress="return SoloNumeros(event)"></asp:TextBox>
                         </p>
                         <p>
                             <asp:Label ID="lbl_tel" runat="server" Text="Teléfono: "></asp:Label><br /><br />
-                            <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px" TextMode="Phone"></asp:TextBox>
+                            <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px" TextMode="Phone" onKeyPress="return SoloNumeros(event)"></asp:TextBox>
                         </p>
                         <p>
                             <asp:Label ID="lbl_correo" runat="server" Text="Correo: "></asp:Label><br /><br />
@@ -90,5 +90,6 @@
             </footer>
         </div>
     </form>
+        <script src="../../js/MainJs.js"></script>
 </body>
 </html>
