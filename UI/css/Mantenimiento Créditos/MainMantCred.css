@@ -8,6 +8,7 @@ main #menu #tabs {
 #principal {
     width: 350px;
     margin: 30px auto;
+    border-radius: 30px;
     border: solid 2px #000000;
 }
 
@@ -27,44 +28,18 @@ main #menu #tabs {
     font-size: 20px;
 }
 
-.boton {
-    margin: 30px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #007FFF;
-}
-
-    .boton:hover {
-        background-color: dodgerblue;
-    }
-
 .principal {
     margin: 0 50px 0 60px;
     text-align: right;
     vertical-align: middle;
 }
 
-#tabs-1 .principal {
-    display: inline-block;
-}
-
-#tabs-2 .principal {
+.tab .principal {
     display: inline-block;
     border: solid 2px #000000;
+    border-radius: 30px;
+    margin: 30px 6%;
 }
-
-#tabs-3 .principal {
-    display: inline-block;
-}
-
-#tabs-4 .principal {
-    display: inline-block;
-}
-
-#tabs-5 .principal {
-    display: inline-block;
-}
-
 
 .principal p {
     padding: 20px;
@@ -75,16 +50,3 @@ main #menu #tabs {
     font-size: 25px;
     font-weight: bold;
 }
-
-.btn_accion {
-    width: 200px;
-    height: 40px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #007FFF;
-    font-weight: bold;
-}
-
-    .btn_accion:hover {
-        background-color: dodgerblue;
-    }

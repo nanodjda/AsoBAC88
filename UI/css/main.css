@@ -32,6 +32,7 @@ body {
     body {
         background-image: url('../../Img/fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg');
         background-repeat: no-repeat;
+        background-size: cover;
         font-family: Arial, Helvetica, sans-serif;
     }
 }
@@ -48,11 +49,11 @@ body {
     border-radius: 30px;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .contenido-central {
         width: 30%;
     }
-}
+}*/
 
 
 /*************************Encabezado*************************************/
@@ -64,13 +65,13 @@ body {
     justify-items: baseline;
 }
 
-    #encabezado .titulo {
-        text-align: center;
-        margin: 0 auto;
-        margin-left: auto;
-        align-items: center;
-        vertical-align: middle;
-    }
+#encabezado .titulo {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    align-items: center;
+    vertical-align: middle;
+}
 
 .salir {
     font-size: 25px;

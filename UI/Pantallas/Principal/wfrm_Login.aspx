@@ -33,7 +33,7 @@
                         <asp:TextBox ID="txt_Pass" runat="server" TextMode="Password" Height="25px"></asp:TextBox>
                     </p>
                     <p id="boton">
-                        <asp:Button ID="btn_ingresar" runat="server" Text="Ingresar" Font-Bold="True" Font-Size="Larger" Width="190px" ForeColor="White" OnClick="btn_ingresar_Click1" />
+                        <asp:Button ID="btn_ingresar" CssClass="btn_Gen" runat="server" Text="Ingresar" Font-Bold="True" Font-Size="Larger" Width="190px" ForeColor="White" OnClick="btn_ingresar_Click1" />
                     </p>
                     <p id="ResetPass">
                         <a href="wfrm_ResetPass.aspx">¿Olvido su contraseña?</a>

@@ -26,19 +26,6 @@
     font-size: medium
 }
 
-#btn_ingresar {
-    width: 200px;
-    height: 40px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #007FFF;
-    font-weight: bold;
-}
-
-#btn_ingresar:hover {
-    background-color: dodgerblue;
-}
-
 #ResetPass {
     text-align: end;
     font-size: 15px;

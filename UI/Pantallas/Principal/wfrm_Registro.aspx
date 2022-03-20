@@ -38,8 +38,8 @@
 <%--**************************************************Principal************************************************************************--%>
             <main>
                 <div id="contenido">
-                    <div class="img1">
-                        &nbsp;<img src="../../Img/Photo_1645204532393.png" width="350"/>
+                    <div class="img">
+                        <img src="../../Img/Photo_1645204532393.png" width="350"/>
                     </div>
                     <div class="text">
                         <p>
@@ -75,11 +75,11 @@
                             <asp:Label ID="lbl_pass2" runat="server" Text="Distrirto"></asp:Label><br /><br />
                             <asp:TextBox class="textbox" runat="server" Height="25px" Width="250px"></asp:TextBox>
                         </p>
-                        <p>
-                            <asp:Button ID="btn_cont" runat="server" Text="Continuar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
+                        <p id="Boton">
+                            <asp:Button ID="btn_cont" CssClass="btn_Gen" runat="server" Text="Continuar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
                         </p>
                     </div>
-                    <div id="img2">
+                    <div class="img"">
                         <img src="../../Img/eficiencia.png" style="width: 350px"/>
                     </div>
                 </div>

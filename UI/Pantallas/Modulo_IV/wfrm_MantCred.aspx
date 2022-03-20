@@ -49,7 +49,7 @@
                             <li><a href="#tabs-4">Eliminar crédito</a></li>
                             <li><a href="#tabs-5">Aprovaciones</a></li>
                         </ul>
-                        <div id="tabs-1">
+                        <div id="tabs-1" class="tab">
                             <div id="principal">
                                 <p class="p">
                                      Crear un nuevo crédito
@@ -70,11 +70,11 @@
                                     <asp:TextBox class="Textbox" ID="txt_Plaza" runat="server"></asp:TextBox>
                                 </p>
                                 <p>
-                                    <asp:Button class="boton" ID="btn_InsertCred" runat="server" Text="Crear" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
+                                    <asp:Button class="btn_Gen" ID="btn_InsertCred" runat="server" Text="Crear" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
                                 </p>
                             </div>
                         </div>
-                        <div id="tabs-2">
+                        <div id="tabs-2" class="tab">
                             <div class="principal">
                                     <p class="p">
                                         Ingrese el número de <br />
@@ -84,7 +84,7 @@
                                     <asp:TextBox class="Textbox" ID="TextBox10" runat="server"></asp:TextBox>
                                 </p>
                                 <p>
-                                    <asp:Button class="boton" ID="Button1" runat="server" Text="Consultar"              Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
+                                    <asp:Button class="btn_Gen" ID="Button1" runat="server" Text="Consultar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
                                 </p>
                             </div>
                             <div class="principal">
@@ -129,11 +129,11 @@
                                 </p>
                             </div>
                         </div>
-                        <div id="tabs-3">
+                        <div id="tabs-3" class="tab">
                             <div class="principal">
-                                <h2>
+                                <p class="p">
                                         Seleccione una opción
-                                </h2>
+                                </p>
                                 <p>
                                     <asp:DropDownList ID="DropDownList3" runat="server">
                                         <asp:ListItem>Crédito de Estudio</asp:ListItem>
@@ -159,15 +159,15 @@
                                     <asp:TextBox class="Textbox" ID="TextBox6" runat="server"></asp:TextBox>
                                 </p>
                                 <p>
-                                    <asp:Button class="boton" ID="Button2" runat="server" Text="Modificar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
+                                    <asp:Button class="btn_Gen" ID="Button2" runat="server" Text="Modificar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
                                 </p>
                             </div>
                         </div>
-                        <div id="tabs-4">
+                        <div id="tabs-4" class="tab">
                             <div class="principal">
-                                <h2>
+                                <p class="p">
                                         Seleccione una opción
-                                </h2>
+                                </p>
                                 <p>
                                     <asp:DropDownList ID="DropDownList4" runat="server">
                                         <asp:ListItem>Crédito de Estudio</asp:ListItem>
@@ -193,11 +193,11 @@
                                     <asp:TextBox class="Textbox" ID="TextBox9" runat="server"></asp:TextBox>
                                 </p>
                                 <p>
-                                    <asp:Button class="boton" ID="Button3" runat="server" Text="Eliminar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
+                                    <asp:Button class="btn_Gen" ID="Button3" runat="server" Text="Eliminar" Font-Bold="true" Font-Size="Larger" Width="190px" ForeColor="White"/>
                                 </p>
                             </div>
                         </div>
-                        <div id="tabs-5">
+                        <div id="tabs-5" class="tab">
                             <div class="principal">
                                 <p class="p">
                                         Seleccione una opción

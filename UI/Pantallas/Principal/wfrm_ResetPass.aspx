@@ -42,7 +42,7 @@
                                 <asp:TextBox ID="txt_Usuario" runat="server" Height="25px" TextMode="Email"></asp:TextBox>
                             </p>
                         <p id="boton">
-                            <asp:Button ID="btn_ingresar" runat="server" Text="Ingresar" Font-Bold="True" Font-Size="Larger" Width="190px" ForeColor="White" OnClick="btn_ingresar_Click"/>
+                            <asp:Button ID="btn_ingresar" CssClass="btn_Gen" runat="server" Text="Ingresar" Font-Bold="True" Font-Size="Larger" Width="190px" ForeColor="White" OnClick="btn_ingresar_Click"/>
                         </p>
                     </div>
                     <div id="img">

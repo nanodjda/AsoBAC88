@@ -12,26 +12,7 @@ main #menu #tabs{
     vertical-align: middle;
 }
 
-#tabs-1 .principal{
-    display: inline-block;
-}
-
-#tabs-2 .principal{
-    display: inline-block;
-}
-#tabs-3 .principal {
-    display: inline-block;
-}
-
-#tabs-4 .principal {
-    display: inline-block;
-}
-
-#tabs-5 .principal {
-    display: inline-block;
-}
-
-#tabs-6 .principal {
+.tab .principal{
     display: inline-block;
 }
 
@@ -40,16 +21,4 @@ main #menu #tabs{
     text-align: center;
 }
 
-.btn_accion {
-    width: 200px;
-    height: 40px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #007FFF;
-    font-weight: bold;
-}
-
-.btn_accion:hover {
-    background-color: dodgerblue;
-}
 

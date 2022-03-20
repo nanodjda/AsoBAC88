@@ -1,107 +1,39 @@
-﻿/**{
-    padding: 0;
-    margin: 0;*/
-    /*border: solid 1px #000000*/
-/*}
-
-body {
-    background-image: url('../../Img/fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position-y: 150px;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-}*/
-
-/****************************Encabezado*************************************/
-
-/*header #encab ul {
-    position: fixed;
-    top: 0;                                     Antes comentadp
-    left: 0;
-    z-index: 100;
-}*/
-/*#encab {
-    background-image: url('../../Img/fondo-blanco-patrones-triangulares_1017-18410.jpg');
-    margin: 0 0 30px 0;
-}
-#encab li {
-    display: inline-block;
-    padding: 10px;
-    vertical-align: middle;
-}
-
-#titulo {
-    margin-left: 450px;
-}
-
-#salir{
-    margin-left: 400px;
-}
-
-#salir a {
-    font-size: 25px;
-    text-decoration: none;
-}
-
-#salir a:hover{
-    color: red;
-    text-decoration: underline;
-}*/
-
-/*/*****************************Main*******************************************/
+﻿
 @import url('../General/MainGeneral.css');
 
 
 #contenido {
     /*border: solid 1px #00ff21;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
     width: 1400px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
-#contenido div {
-    display: inline-block;
-    vertical-align: middle;
-    
+#contenido #Boton{
+    text-align: center;
 }
 
-#img2 {
+.img {
     /*border: solid 3px #ff00dc;*/
-    margin-left: 142px;
+    text-align: center;
+    margin: 65% 0;
 }
 
 .text {
-    margin-left:125px;
     padding:25px;
     border: solid 4px #000000;
+    border-radius: 30px;
 }
 
 .text p{
     margin: 30px 0;
+    text-align: center;
     /*border: solid 1px #ff6a00;*/
 }
 
-#btn_cont {
-    margin: 30px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: blue;
-}
-
-#btn_cont:hover{
-    background-color: cornflowerblue;
-}
-
-.text .textbox {
+.text p .textbox {
     background-color: #f3f1f1;
     border-radius: 6px;
-    font-size: 20px;
-}
-
-/*****************************Pie de Página**********************************/
-
-#PiePag {
-    padding: 20px;
-    text-align: center;
 }
