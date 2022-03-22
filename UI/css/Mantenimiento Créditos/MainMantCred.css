@@ -1,8 +1,12 @@
 ﻿@import url('../General/MainGeneral.css');
 
+*{
+    /*border: solid 2px #ff0000;*/
+}
+
 main #menu #tabs {
     width: 1000px;
-    margin: 0 auto;
+    margin: 60px auto 0 auto;
 }
 
 #principal {
@@ -12,41 +16,31 @@ main #menu #tabs {
     border: solid 2px #000000;
 }
 
-#principal p {
+p {
     padding: 20px;
     text-align: center;
 }
 
-#principal .p {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#tabs div .Textbox {
-    background-color: #f3f1f1;
-    border-radius: 6px;
-    font-size: 20px;
-}
-
-.principal {
-    margin: 0 50px 0 60px;
-    text-align: right;
-    vertical-align: middle;
-}
-
-.tab .principal {
-    display: inline-block;
+.principal1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 2px #000000;
     border-radius: 30px;
     margin: 30px 6%;
 }
 
-.principal p {
-    padding: 20px;
-    text-align: center;
+.tab .principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    border: solid 2px #000000;
+    border-radius: 30px;
+    margin: 30px 6%;
+    vertical-align: middle;
 }
 
-.principal .p {
+.p {
     font-size: 25px;
     font-weight: bold;
 }

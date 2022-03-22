@@ -52,10 +52,17 @@ body {
     cursor: pointer;
     background-color: #007FFF;
     font-weight: bold;
+    margin: 0 0 20px 0;
 }
 
 .btn_Gen:hover {
     background-color: dodgerblue;
+}
+
+.txt_Gen {
+    background-color: #f3f1f1;
+    border-radius: 6px;
+    font-size: 20px;
 }
 /***************************************Pie de página**********************************************/
 
