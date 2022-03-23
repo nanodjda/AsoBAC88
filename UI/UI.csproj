@@ -77,6 +77,7 @@
     <Content Include="css\Registro\MainReg.css" />
     <Content Include="css\Login\MainLogin.css" />
     <Content Include="css\ResetPass\MainResetPass.css" />
+    <Content Include="css\Retiro Ahorro\MainRetAhoro.css" />
     <Content Include="Img\1621796483_652856_1621796815_noticia_normal_recorte1.jpg" />
     <Content Include="Img\20220220_132111.png" />
     <Content Include="Img\3nvcce03.qg2.jpeg" />

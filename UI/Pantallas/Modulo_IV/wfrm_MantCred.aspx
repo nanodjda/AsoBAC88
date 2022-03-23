@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_MantCred.aspx.cs" Inherits="UI.Pantallas.Modulo_IV.wfrm_MantCred" %>
+﻿1<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_MantCred.aspx.cs" Inherits="UI.Pantallas.Modulo_IV.wfrm_MantCred" %>
 
 <!DOCTYPE html>
 
@@ -17,26 +17,26 @@
         <div id="main">
 <%--*************************************************************Encabezado******************************************************--%>
              <header>
-                <div id="encab">
-                    <section id="logo">
+                <section id="encab">
+                    <div id="logo">
                         <ul>
                             <li id="logo1">
                                 <img src="../../Img/20220220_132111.png" width="200"/>
                             </li>
                         </ul>
-                    </section>
-                    <section id="titulo">
+                    </div>
+                    <div id="titulo">
                         <h1>Bienvenido</h1>
                         <h2>Seleccione una opción</h2>
-                    </section>
-                    <section id="salir">
+                    </div>
+                    <div id="salir">
                         <ul>
                             <li id="salir1">
                                  <a id="a_salir" href="../Principal/wfrm_Principal.aspx">Salir</a>
                             </li>
                         </ul>
-                    </section>
-                </div>
+                    </div>
+                </section>
             </header>
 <%--*************************************************************Principal********************************************************--%>
             <main>
