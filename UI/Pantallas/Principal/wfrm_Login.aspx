@@ -14,7 +14,7 @@
            <header>
                 <div id="encabezado">
                     <div class="logo">
-                        <img src="../../Img/20220220_132111.png" width="200" />
+                        <a href="wfrm_Login.aspx"><img src="../../Img/20220220_132111.png" width="200" /></a>
                     </div>
                     <div class="titulo">
                         <h1>Ingrese su usuario y contraseña</h1>

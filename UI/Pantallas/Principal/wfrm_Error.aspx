@@ -8,6 +8,8 @@
     <title>Error</title>
     <link href="../../css/Error/MainError.css" rel="stylesheet" />
 </head>
+
+
 <body>
     <form id="form1" runat="server">
         <div>

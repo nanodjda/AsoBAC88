@@ -1,5 +1,5 @@
 ﻿
-@import url('../General/MainGeneral.css');
+@import url('../../css/main.css');
 
 main #menu #tabs{
     width: 1000px;

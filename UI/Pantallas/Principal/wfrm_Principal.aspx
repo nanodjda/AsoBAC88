@@ -17,25 +17,17 @@
         <div id="main">
 <%--*************************************************************Encabezado******************************************************--%>
             <header>
-                <div id="encab">
-                    <section id="logo">
-                        <ul>
-                            <li id="logo1">
-                                <img src="../../Img/20220220_132111.png" width="200"/>
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="titulo">
+                <div id="encabezado">
+                    <div class="logo">
+                        <a href="wfrm_Principal.aspx"><img src="../../Img/20220220_132111.png" width="200"/></a>
+                    </div>
+                    <div class="titulo">
                                 <h1>Bienvenido</h1>
                             <h2>Seleccione una opción</h2>
-                    </section>
-                    <section id="salir">
-                        <ul>
-                            <li id="salir1">
-                                 <a id="a_salir" href="wfrm_Login.aspx">Salir</a>
-                            </li>
-                        </ul>
-                    </section>
+                    </div>
+                    <div class="salir">
+                        <a id="a_salir" href="wfrm_Login.aspx">Salir</a>
+                    </div>
                 </div>
             </header>
 <%--*************************************************************Principal********************************************************--%>
