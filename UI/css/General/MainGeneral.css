@@ -60,9 +60,12 @@ body {
 }
 
 .txt_Gen {
+    margin: 20px;
     background-color: #f3f1f1;
     border-radius: 6px;
     font-size: 20px;
+    width: 80%
+    /*border: solid 2px #4cff00*/
 }
 /***************************************Pie de página**********************************************/
 

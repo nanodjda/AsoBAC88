@@ -42,38 +42,41 @@
                     </h1>
                 </div>
                 <div id="contenedor_1">
+                    <p></p>
                     <p>
                         <asp:Label ID="Label1" runat="server" Text="Cuenta Bancaria: "></asp:Label><br />
-                        <br />
                         <asp:DropDownList CssClass="txt_Gen" ID="DropDownList1" runat="server">
                             <asp:ListItem>Crédito de Estudio</asp:ListItem>
                             <asp:ListItem>Crédito Personal</asp:ListItem>
                             <asp:ListItem>Crédito Fiduciario</asp:ListItem>
                         </asp:DropDownList>
                     </p>
+                    <p></p>
                     <p>
                         <asp:Label ID="Label2" runat="server" Text="Institución Bancaria: "></asp:Label><br />
-                        <br />
-                        <asp:TextBox Class="txt_Gen" ID="TextBox1" runat="server" ReadOnly="true"></asp:TextBox>
+                        <asp:TextBox Class="txt_Gen" runat="server" ReadOnly="true"></asp:TextBox>
                     </p>
                     <p>
                         <asp:Label ID="Label3" runat="server" Text="Tipo de cuenta: "></asp:Label><br />
-                        <br />
                         <asp:TextBox CssClass="txt_Gen" ID="TextBox2" runat="server" ReadOnly="true"></asp:TextBox>
                     </p>
                     <p>
                         <asp:Label ID="Label4" runat="server" Text="Moneda: "></asp:Label><br />
-                        <br />
                         <asp:TextBox CssClass="txt_Gen" ID="TextBox3" runat="server" ReadOnly="true"></asp:TextBox>
                     </p>
                     <p>
-                        <asp:Label ID="Label5" runat="server" Text="Seleccione ahorro a retirar "></asp:Label><br />
-                        <br />
+                        <asp:Label ID="Label5" runat="server" Text="Seleccione ahorro a retirar "></asp:Label>
+                    </p>
+                    <p>
+                        
                             <asp:DropDownList CssClass="txt_Gen" ID="DropDownList2" runat="server">
                                 <asp:ListItem>Crédito de Estudio</asp:ListItem>
                                 <asp:ListItem>Crédito Personal</asp:ListItem>
                                 <asp:ListItem>Crédito Fiduciario</asp:ListItem>
                         </asp:DropDownList>
+                    </p>
+                    <p>
+                        <asp:Button CssClass="btn_Gen" runat="server" Text="Retiro" Font-Bold="true" Font-Size="Larger" Width="120px" ForeColor="White"/>
                     </p>
                 </div>
             </section>

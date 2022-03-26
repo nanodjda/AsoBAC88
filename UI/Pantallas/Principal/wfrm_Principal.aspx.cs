@@ -23,5 +23,10 @@ namespace UI.Pantallas.Principal
         {
             Response.Redirect("~/Pantallas/Principal/wfrm_Registro.aspx");
         }
+
+        protected void btn_RetAhorro_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Pantallas/Modulo_II/wfrm_RetAhorro.aspx");
+        }
     }
 }

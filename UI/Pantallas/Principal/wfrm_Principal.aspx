@@ -40,9 +40,10 @@
                             <li><a href="#tabs-3">Gestión de Créditos</a></li>
                             <li><a href="#tabs-4">Mantenimiento de la página</a></li>
                             <li><a href="#tabs-5">Seguridad</a></li>
-                            <li><a href="#tabs-6">Aprobaciones</a></li>
-                            
+                            <li><a href="#tabs-6">Aprobaciones</a></li>                          
                         </ul>
+
+<%--********************************************************Tab 1*********************************************************************--%>
                         <div id="tabs-1" class="tab">
                             <div class="principal">
                                 <p>
@@ -61,6 +62,8 @@
                                 </p>
                             </div>
                         </div>
+
+<%--********************************************************Tab 2*********************************************************************--%>
                         <div id="tabs-2" class="tab">
                             <div class="principal">
                                 <p>
@@ -75,10 +78,12 @@
                                             <asp:Button id="btn_MatAhorro" class="btn_Gen" runat="server" Text="Matricula de Ahorros" ForeColor="White"/>
                                         </p>
                                         <p>
-                                            <asp:Button id="btn_RetAhorro" class="btn_Gen" runat="server" Text="Retiro de ahorros" ForeColor="White"/>
+                                            <asp:Button id="btn_RetAhorro" class="btn_Gen" runat="server" Text="Retiro de ahorros" ForeColor="White" OnClick="btn_RetAhorro_Click"/>
                                         </p>
                                 </div>
                             </div>
+
+<%--********************************************************Tab 3*********************************************************************--%>
                         <div id="tabs-3" class="tab">
                             <div class="principal">
                                 <p>
@@ -97,6 +102,8 @@
                                     </p>
                             </div>
                         </div>
+
+<%--********************************************************Tab 4*********************************************************************--%>
                         <div id="tabs-4" class="tab">
                             <div class="principal">
                                 <p>
@@ -115,6 +122,8 @@
                                     </p>
                                 </div>
                         </div>
+
+<%--********************************************************Tab 5*********************************************************************--%>
                         <div id="tabs-5" class="tab">
                             <div class="principal">
                                 <p>
@@ -133,6 +142,8 @@
                                     </p>
                             </div>
                         </div>
+
+<%--********************************************************Tab 6*********************************************************************--%>
                         <div id="tabs-6" class="tab">
                             <div class="principal">
                                 <p>

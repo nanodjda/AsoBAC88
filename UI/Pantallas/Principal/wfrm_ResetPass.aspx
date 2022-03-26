@@ -39,7 +39,7 @@
                     <div class="text">
                         <h2>Ingrese su correo electrónico registrado <br /> para enviarle una contraseña temporal.</h2>
                             <p id="correo">
-                                <asp:TextBox CssClass="txt_Gen" ID="txt_Usuario" runat="server" Height="25px" TextMode="Email"></asp:TextBox>
+                                <asp:TextBox CssClass="txt_Gen" ID="txt_Usuario" runat="server" TextMode="Email"></asp:TextBox>
                             </p>
                         <p id="boton">
                             <asp:Button ID="btn_ingresar" CssClass="btn_Gen" runat="server" Text="Ingresar" Font-Bold="True" Font-Size="Larger" Width="190px" ForeColor="White" OnClick="btn_ingresar_Click"/>
