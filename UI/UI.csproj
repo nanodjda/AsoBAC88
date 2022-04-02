@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A9109BC6-4ACF-4AA5-BFBA-F566795C0E7B}</ProjectGuid>
+    <ProjectGuid>{6E8CAB30-5BB5-4EE1-9175-3F5BA3A3A3F0}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44304</IISExpressSSLPort>
+    <IISExpressSSLPort>44396</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,40 +67,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\Error\MainError.css" />
-    <Content Include="css\General\MainGeneral.css" />
+    <Content Include="css\ahorros.css" />
+    <Content Include="css\aprobaciones.css" />
+    <Content Include="css\creditos.css" />
+    <Content Include="css\generales.css" />
+    <Content Include="css\login.css" />
     <Content Include="css\main.css" />
-    <Content Include="css\Mantenimiento Créditos\MainMantCred.css" />
-    <Content Include="css\Matricula Ahorro\MainMatAhorro.css" />
-    <Content Include="css\Perfil de Usuario\MainPerfil.css" />
-    <Content Include="css\Principal\MainPrincipal.css" />
-    <Content Include="css\Registro\MainReg.css" />
-    <Content Include="css\Login\MainLogin.css" />
-    <Content Include="css\ResetPass\MainResetPass.css" />
-    <Content Include="css\Retiro Ahorro\MainRetAhoro.css" />
-    <Content Include="Img\1621796483_652856_1621796815_noticia_normal_recorte1.jpg" />
-    <Content Include="Img\20220220_132111.png" />
-    <Content Include="Img\3nvcce03.qg2.jpeg" />
-    <Content Include="Img\Aprobaciones.png" />
-    <Content Include="Img\convenios.jpg" />
-    <Content Include="Img\creditos_fotoartecl.jpg" />
-    <Content Include="Img\educapro.png" />
-    <Content Include="Img\eficiencia.png" />
-    <Content Include="Img\fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg" />
-    <Content Include="Img\fondo-blanco-patrones-triangulares_1017-18410.jpg" />
-    <Content Include="Img\fortaleza-asociacion-solidarista.jpg" />
-    <Content Include="Img\images.png" />
-    <Content Include="Img\Image_1645205671797.png" />
-    <Content Include="Img\Life-insurance.png" />
-    <Content Include="Img\Mantenimiento-industrial.png" />
-    <Content Include="Img\PA596x750.png" />
-    <Content Include="Img\Photo_1645203960975.png" />
-    <Content Include="Img\Photo_1645204532393.png" />
-    <Content Include="Img\Photo_1645380565452.png" />
-    <Content Include="Img\Seguridad.jpg" />
-    <Content Include="Img\Trabajando.jpg" />
-    <Content Include="Img\_2OpwRD5 CREDITOS.jpg" />
-    <Content Include="Img\_NgvWQd8.5.2-CUOTA-GARANTIZADA-PARA-PRESTAMOS.jpg" />
+    <Content Include="css\asociados.css" />
+    <Content Include="css\mantenimientos.css" />
+    <Content Include="css\principal.css" />
+    <Content Include="css\seguridad.css" />
+    <Content Include="imagenes\asobac_creditos_vivienda.jpg" />
+    <Content Include="imagenes\logo.png" />
+    <Content Include="imagenes\reunion_aso.jpeg" />
+    <Content Include="imagenes\Aprobaciones.png" />
+    <Content Include="imagenes\convenios.jpg" />
+    <Content Include="imagenes\creditos_fotoartecl.jpg" />
+    <Content Include="imagenes\educapro.png" />
+    <Content Include="imagenes\eficiencia.png" />
+    <Content Include="imagenes\error-404.jpg" />
+    <Content Include="imagenes\fondo_body.jpg" />
+    <Content Include="imagenes\fondo_header.jpg" />
+    <Content Include="imagenes\fortaleza-asociacion-solidarista.jpg" />
+    <Content Include="imagenes\sitio_construccion.png" />
+    <Content Include="imagenes\creditos_educativos.png" />
+    <Content Include="imagenes\asobac88.png" />
+    <Content Include="imagenes\manos_familia.png" />
+    <Content Include="imagenes\Mantenimiento-industrial.png" />
+    <Content Include="imagenes\planes_ahorro.png" />
+    <Content Include="imagenes\reunion_aso_sinfondo.png" />
+    <Content Include="imagenes\manos_juntas sin fondo.png" />
+    <Content Include="imagenes\Seguridad.jpg" />
+    <Content Include="imagenes\Trabajando.jpg" />
+    <Content Include="imagenes\creditos.jpg" />
+    <Content Include="imagenes\cuota_prestamos.jpg" />
     <Content Include="jquery-ui-1.13.1\AUTHORS.txt" />
     <Content Include="jquery-ui-1.13.1\external\jquery\jquery.js" />
     <Content Include="jquery-ui-1.13.1\images\ui-icons_444444_256x240.png" />
@@ -122,168 +122,168 @@
     <Content Include="jquery-ui-1.13.1\jquery-ui.theme.min.css" />
     <Content Include="jquery-ui-1.13.1\LICENSE.txt" />
     <Content Include="js\MainJs.js" />
-    <Content Include="Pantallas\Modulo_III\wfrm_MisCreditos.aspx" />
-    <Content Include="Pantallas\Modulo_III\wfrm_PagoExt.aspx" />
-    <Content Include="Pantallas\Modulo_III\wfrm_SolicitudCred.aspx" />
-    <Content Include="Pantallas\Modulo_II\wfrm_MatAhorro.aspx" />
-    <Content Include="Pantallas\Modulo_II\wfrm_MisAhorros.aspx" />
-    <Content Include="Pantallas\Modulo_II\wfrm_RetAhorro.aspx" />
-    <Content Include="Pantallas\Modulo_IV\wfrm_InfoAsoc.aspx" />
-    <Content Include="Pantallas\Modulo_IV\wfrm_MantAhorros.aspx" />
-    <Content Include="Pantallas\Modulo_IV\wfrm_MantCred.aspx" />
-    <Content Include="Pantallas\Modulo_I\wfrm_EstCuenta.aspx" />
-    <Content Include="Pantallas\Modulo_I\wfrm_HistTransc.aspx" />
-    <Content Include="Pantallas\Principal\wfrm_Error.aspx" />
-    <Content Include="Pantallas\Modulo_I\wfrm_Perfil.aspx" />
-    <Content Include="Pantallas\Modulo_V\wfrm_ControlAcceso.aspx" />
-    <Content Include="Pantallas\Modulo_V\wfrm_RegIngreso.aspx" />
-    <Content Include="Pantallas\Modulo_V\wfrm_Usuarios.aspx" />
-    <Content Include="Pantallas\Principal\wfrm_Login.aspx" />
-    <Content Include="Pantallas\Principal\wfrm_Principal.aspx" />
-    <Content Include="Pantallas\Principal\wfrm_Registro.aspx" />
-    <Content Include="Pantallas\Principal\wfrm_ResetPass.aspx" />
+    <Content Include="Pantallas\Ahorros\wfrm_MatAhorros.aspx" />
+    <Content Include="Pantallas\Ahorros\wfrm_MisAhorros.aspx" />
+    <Content Include="Pantallas\Ahorros\wfrm_RetAhorros.aspx" />
+    <Content Include="Pantallas\Aprobaciones\wfrm_AproAhorros.aspx" />
+    <Content Include="Pantallas\Aprobaciones\wfrm_AproCreditos.aspx" />
+    <Content Include="Pantallas\Asociados\wfrm_EstCuenta.aspx" />
+    <Content Include="Pantallas\Asociados\wfrm_Movimientos.aspx" />
+    <Content Include="Pantallas\Asociados\wfrm_Perfil.aspx" />
+    <Content Include="Pantallas\Creditos\wfrm_MisCreditos.aspx" />
+    <Content Include="Pantallas\Creditos\wfrm_PagoExt.aspx" />
+    <Content Include="Pantallas\Creditos\wfrm_SolicitudCred.aspx" />
+    <Content Include="Pantallas\Generales\wfrm_Principal.aspx" />
+    <Content Include="Pantallas\Mantenimientos\wfrm_ManAhorros.aspx" />
+    <Content Include="Pantallas\Mantenimientos\wfrm_ManAsociados.aspx" />
+    <Content Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegLogin.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegRecuperarPass.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegUsuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pantallas\Modulo_III\wfrm_MisCreditos.aspx.cs">
-      <DependentUpon>wfrm_MisCreditos.aspx</DependentUpon>
+    <Compile Include="Pantallas\Ahorros\wfrm_MatAhorros.aspx.cs">
+      <DependentUpon>wfrm_MatAhorros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_III\wfrm_MisCreditos.aspx.designer.cs">
-      <DependentUpon>wfrm_MisCreditos.aspx</DependentUpon>
+    <Compile Include="Pantallas\Ahorros\wfrm_MatAhorros.aspx.designer.cs">
+      <DependentUpon>wfrm_MatAhorros.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_III\wfrm_PagoExt.aspx.cs">
-      <DependentUpon>wfrm_PagoExt.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_III\wfrm_PagoExt.aspx.designer.cs">
-      <DependentUpon>wfrm_PagoExt.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_III\wfrm_SolicitudCred.aspx.cs">
-      <DependentUpon>wfrm_SolicitudCred.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_III\wfrm_SolicitudCred.aspx.designer.cs">
-      <DependentUpon>wfrm_SolicitudCred.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_II\wfrm_MatAhorro.aspx.cs">
-      <DependentUpon>wfrm_MatAhorro.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_II\wfrm_MatAhorro.aspx.designer.cs">
-      <DependentUpon>wfrm_MatAhorro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_II\wfrm_MisAhorros.aspx.cs">
+    <Compile Include="Pantallas\Ahorros\wfrm_MisAhorros.aspx.cs">
       <DependentUpon>wfrm_MisAhorros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_II\wfrm_MisAhorros.aspx.designer.cs">
+    <Compile Include="Pantallas\Ahorros\wfrm_MisAhorros.aspx.designer.cs">
       <DependentUpon>wfrm_MisAhorros.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_II\wfrm_RetAhorro.aspx.cs">
-      <DependentUpon>wfrm_RetAhorro.aspx</DependentUpon>
+    <Compile Include="Pantallas\Ahorros\wfrm_RetAhorros.aspx.cs">
+      <DependentUpon>wfrm_RetAhorros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_II\wfrm_RetAhorro.aspx.designer.cs">
-      <DependentUpon>wfrm_RetAhorro.aspx</DependentUpon>
+    <Compile Include="Pantallas\Ahorros\wfrm_RetAhorros.aspx.designer.cs">
+      <DependentUpon>wfrm_RetAhorros.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_IV\wfrm_InfoAsoc.aspx.cs">
-      <DependentUpon>wfrm_InfoAsoc.aspx</DependentUpon>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproAhorros.aspx.cs">
+      <DependentUpon>wfrm_AproAhorros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_IV\wfrm_InfoAsoc.aspx.designer.cs">
-      <DependentUpon>wfrm_InfoAsoc.aspx</DependentUpon>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproAhorros.aspx.designer.cs">
+      <DependentUpon>wfrm_AproAhorros.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_IV\wfrm_MantAhorros.aspx.cs">
-      <DependentUpon>wfrm_MantAhorros.aspx</DependentUpon>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproCreditos.aspx.cs">
+      <DependentUpon>wfrm_AproCreditos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_IV\wfrm_MantAhorros.aspx.designer.cs">
-      <DependentUpon>wfrm_MantAhorros.aspx</DependentUpon>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproCreditos.aspx.designer.cs">
+      <DependentUpon>wfrm_AproCreditos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_IV\wfrm_MantCred.aspx.cs">
-      <DependentUpon>wfrm_MantCred.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_IV\wfrm_MantCred.aspx.designer.cs">
-      <DependentUpon>wfrm_MantCred.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_I\wfrm_EstCuenta.aspx.cs">
+    <Compile Include="Pantallas\Asociados\wfrm_EstCuenta.aspx.cs">
       <DependentUpon>wfrm_EstCuenta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_I\wfrm_EstCuenta.aspx.designer.cs">
+    <Compile Include="Pantallas\Asociados\wfrm_EstCuenta.aspx.designer.cs">
       <DependentUpon>wfrm_EstCuenta.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_I\wfrm_HistTransc.aspx.cs">
-      <DependentUpon>wfrm_HistTransc.aspx</DependentUpon>
+    <Compile Include="Pantallas\Asociados\wfrm_Movimientos.aspx.cs">
+      <DependentUpon>wfrm_Movimientos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_I\wfrm_HistTransc.aspx.designer.cs">
-      <DependentUpon>wfrm_HistTransc.aspx</DependentUpon>
+    <Compile Include="Pantallas\Asociados\wfrm_Movimientos.aspx.designer.cs">
+      <DependentUpon>wfrm_Movimientos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Error.aspx.cs">
-      <DependentUpon>wfrm_Error.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Error.aspx.designer.cs">
-      <DependentUpon>wfrm_Error.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pantallas\Modulo_I\wfrm_Perfil.aspx.cs">
+    <Compile Include="Pantallas\Asociados\wfrm_Perfil.aspx.cs">
       <DependentUpon>wfrm_Perfil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_I\wfrm_Perfil.aspx.designer.cs">
+    <Compile Include="Pantallas\Asociados\wfrm_Perfil.aspx.designer.cs">
       <DependentUpon>wfrm_Perfil.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_V\wfrm_ControlAcceso.aspx.cs">
-      <DependentUpon>wfrm_ControlAcceso.aspx</DependentUpon>
+    <Compile Include="Pantallas\Creditos\wfrm_MisCreditos.aspx.cs">
+      <DependentUpon>wfrm_MisCreditos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_V\wfrm_ControlAcceso.aspx.designer.cs">
-      <DependentUpon>wfrm_ControlAcceso.aspx</DependentUpon>
+    <Compile Include="Pantallas\Creditos\wfrm_MisCreditos.aspx.designer.cs">
+      <DependentUpon>wfrm_MisCreditos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_V\wfrm_RegIngreso.aspx.cs">
-      <DependentUpon>wfrm_RegIngreso.aspx</DependentUpon>
+    <Compile Include="Pantallas\Creditos\wfrm_PagoExt.aspx.cs">
+      <DependentUpon>wfrm_PagoExt.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_V\wfrm_RegIngreso.aspx.designer.cs">
-      <DependentUpon>wfrm_RegIngreso.aspx</DependentUpon>
+    <Compile Include="Pantallas\Creditos\wfrm_PagoExt.aspx.designer.cs">
+      <DependentUpon>wfrm_PagoExt.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Modulo_V\wfrm_Usuarios.aspx.cs">
-      <DependentUpon>wfrm_Usuarios.aspx</DependentUpon>
+    <Compile Include="Pantallas\Creditos\wfrm_SolicitudCred.aspx.cs">
+      <DependentUpon>wfrm_SolicitudCred.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Modulo_V\wfrm_Usuarios.aspx.designer.cs">
-      <DependentUpon>wfrm_Usuarios.aspx</DependentUpon>
+    <Compile Include="Pantallas\Creditos\wfrm_SolicitudCred.aspx.designer.cs">
+      <DependentUpon>wfrm_SolicitudCred.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Login.aspx.cs">
-      <DependentUpon>wfrm_Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Login.aspx.designer.cs">
-      <DependentUpon>wfrm_Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Principal.aspx.cs">
+    <Compile Include="Pantallas\Generales\wfrm_Principal.aspx.cs">
       <DependentUpon>wfrm_Principal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Principal.aspx.designer.cs">
+    <Compile Include="Pantallas\Generales\wfrm_Principal.aspx.designer.cs">
       <DependentUpon>wfrm_Principal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Registro.aspx.cs">
-      <DependentUpon>wfrm_Registro.aspx</DependentUpon>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAhorros.aspx.cs">
+      <DependentUpon>wfrm_ManAhorros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_Registro.aspx.designer.cs">
-      <DependentUpon>wfrm_Registro.aspx</DependentUpon>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAhorros.aspx.designer.cs">
+      <DependentUpon>wfrm_ManAhorros.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_ResetPass.aspx.cs">
-      <DependentUpon>wfrm_ResetPass.aspx</DependentUpon>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAsociados.aspx.cs">
+      <DependentUpon>wfrm_ManAsociados.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Principal\wfrm_ResetPass.aspx.designer.cs">
-      <DependentUpon>wfrm_ResetPass.aspx</DependentUpon>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAsociados.aspx.designer.cs">
+      <DependentUpon>wfrm_ManAsociados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx.cs">
+      <DependentUpon>wfrm_ManCreditos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx.designer.cs">
+      <DependentUpon>wfrm_ManCreditos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegLogin.aspx.cs">
+      <DependentUpon>wfrm_SegLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegLogin.aspx.designer.cs">
+      <DependentUpon>wfrm_SegLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx.cs">
+      <DependentUpon>wfrm_SegAccesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx.designer.cs">
+      <DependentUpon>wfrm_SegAccesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx.cs">
+      <DependentUpon>wfrm_SegPlanilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx.designer.cs">
+      <DependentUpon>wfrm_SegPlanilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegRecuperarPass.aspx.cs">
+      <DependentUpon>wfrm_SegRecuperarPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegRecuperarPass.aspx.designer.cs">
+      <DependentUpon>wfrm_SegRecuperarPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegUsuarios.aspx.cs">
+      <DependentUpon>wfrm_SegUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegUsuarios.aspx.designer.cs">
+      <DependentUpon>wfrm_SegUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -297,7 +297,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{9c46f9fd-4e24-4744-b408-e4ea5a4b95b0}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{eff14b91-e8c1-4f25-9b6b-4816260482e6}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -311,9 +320,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49977</DevelopmentServerPort>
+          <DevelopmentServerPort>61606</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44304/</IISUrl>
+          <IISUrl>https://localhost:44396/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,0 +1,48 @@
+﻿@import url('main.css');
+
+body {
+}
+
+
+/* MANTENIMIENTO DE CRÉDITOS */
+
+main #menu #tabs {
+    width: 1000px;
+    margin: 60px auto 0 auto;
+}
+
+#principal {
+    width: 350px;
+    margin: 30px auto;
+    border-radius: 30px;
+    border: solid 2px #000000;
+}
+
+p {
+    padding: 20px;
+    text-align: center;
+}
+
+.principal1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #000000;
+    border-radius: 30px;
+    margin: 30px 6%;
+}
+
+.tab .principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    border: solid 2px #000000;
+    border-radius: 30px;
+    margin: 30px 6%;
+    vertical-align: middle;
+}
+
+.p {
+    font-size: 25px;
+    font-weight: bold;
+}

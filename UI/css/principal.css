@@ -1,0 +1,24 @@
+﻿
+@import url('main.css');
+
+main #menu #tabs{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.principal{
+    margin-right: 100px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.tab .principal{
+    display: inline-block;
+}
+
+.principal p {
+    padding: 20px;
+    text-align: center;
+}
+
+
