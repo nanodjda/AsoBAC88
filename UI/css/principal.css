@@ -1,24 +1,40 @@
 ﻿
 @import url('main.css');
 
-main #menu #tabs{
-    width: 1000px;
-    margin: 0 auto;
+.slider{
+    width: 750px;
+    margin: 90px auto;
+    overflow: hidden;
 }
 
-.principal{
-    margin-right: 100px;
-    text-align: right;
-    vertical-align: middle;
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: slide 20s infinite alternate linear;
 }
 
-.tab .principal{
-    display: inline-block;
+.slider li{
+    width: 100%;
+    list-style: none;
 }
 
-.principal p {
-    padding: 20px;
-    text-align: center;
+.slider img{
+    width: 750px;
+    height: 450px;
 }
+
+@keyframes slide{
+    0% {margin-left: 0}
+    20% {margin-left: 0}
+    25% {margin-left: -750px}
+    45% {margin-left: -750px}
+    50% {margin-left: -1500px}
+    70% {margin-left: -1500px}
+    75% {margin-left: -2250px}
+    100% {margin-left: -2250px}
+}
+
+
 
 
