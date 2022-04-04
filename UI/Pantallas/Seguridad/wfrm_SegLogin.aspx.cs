@@ -21,20 +21,21 @@ namespace UI.Pantallas.Seguridad
 
         protected void btn_ingresar_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("~/Pantallas/Generales/wfrm_Principal.aspx");
+            //Response.Redirect("~/Pantallas/Generales/wfrm_Principal.aspx");
 
-            //obj_Usuarios_DAL.sUsuarioID = txt_Usuario.Text;
-            //obj_Usuarios_DAL.sClave = txt_Pass.Text;
-            //obj_Usuarios_DAL.cAxn = 'X'; // Indico mediante un caracter, que la accion no será un SP ni un filtrado
-            //obj_Usuarios_BLL.VerificarLogin(ref obj_Usuarios_DAL);
+            obj_Usuarios_DAL.sUsuarioID = txt_Usuario.Text;
+            obj_Usuarios_DAL.sClave = txt_Pass.Text;
+            obj_Usuarios_DAL.cAxn = 'X'; // Indico mediante un caracter, que la accion no será un SP ni un filtrado
+            obj_Usuarios_BLL.VerificarLogin(ref obj_Usuarios_DAL);
 
-            //if(obj_Usuarios_DAL.Dt.Rows[0][0].ToString() == "1") //De existir dicha coincidencia en la BD, permito el ingreso
-            //{
-            //    Response.Redirect("~/Pantallas/Generales/wfrm_Principal.aspx");
-            //} else
-            //{
-            //    error_pass.Visible = true;
-            //}
+            if (obj_Usuarios_DAL.Dt.Rows[0][0].ToString() == "1") //De existir dicha coincidencia en la BD, permito el ingreso
+            {
+                Response.Redirect("~/Pantallas/Generales/wfrm_Principal.aspx");
+            }
+            else
+            {
+                lbl_ErrorPass.Visible = true;
+            }
         }
     }
 }

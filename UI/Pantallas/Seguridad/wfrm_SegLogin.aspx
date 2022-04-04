@@ -38,7 +38,7 @@
                     <p id="boton">
                         <asp:Button ID="btn_ingresar" CssClass="btn_Gen" runat="server" Text="Ingresar" Font-Bold="True" Font-Size="Larger" Width="190px" ForeColor="White" OnClick="btn_ingresar_Click1" />
                     </p>
-                    <asp:Label ID="error_pass" runat="server" Text="El usuario y/o contraseñas son incorrectos." Font-Size="Small" ForeColor="#CC3300" Visible="False"></asp:Label>
+                    <asp:Label ID="lbl_ErrorPass" runat="server" Text="El usuario y/o contraseñas son incorrectos." Font-Size="Small" ForeColor="#CC3300" Visible="False"></asp:Label>
                     <p id="ResetPass">
                         <a href="wfrm_SegRecuperarPass.aspx">¿Olvido su contraseña?</a>
                     </p>

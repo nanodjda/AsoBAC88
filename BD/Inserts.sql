@@ -17,7 +17,7 @@ GO
 
 INSERT INTO [SCH_ADMINISTRATIVO].[USUARIOS]
 	VALUES
-		('admin', '116130484', 1, 1, 'David', 'Josué', 'Díaz', 'Aguilar', 'nanosama95@gmail.com', '1234', 0)
+		('admin', '116130484', 1, 1, 'David', 'Josué', 'Díaz', 'Aguilar', 'nanosama95@gmail.com', '1234', 1, 0)
 GO
 
 INSERT INTO [SCH_ADMINISTRATIVO].[ASOCIADOS]
