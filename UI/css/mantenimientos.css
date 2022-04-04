@@ -46,3 +46,55 @@ p {
     font-size: 25px;
     font-weight: bold;
 }
+
+
+/* MANTENIMIENTO DE USUARIOS / REGISTRO DE ASOCIADOS */
+
+.contenedor-asociados {
+    width: 40%;
+    margin: 30px auto 0 auto;
+    padding: 50px;
+    border: solid 3px #0072ff;
+    border-radius: 30px;
+    text-align:center;
+}
+
+.formulario-asociados {
+    display:grid;
+    grid-template-columns: 1fr 2fr 0.3fr;
+    grid-row-gap: 2em;
+    margin: 2em auto 2em auto;
+    justify-items:end;
+}
+
+    .formulario-asociados > input[type=text] {
+        width: 80%;
+        background-color: #f3f1f1;
+        border-radius: 6px;
+        grid-column: 2 / 3;
+    }
+
+    .formulario-asociados > input[type=submit] {
+        width: 60%;
+        grid-column: 2 / 3;
+    }
+
+    .formulario-asociados > span {
+        width: 20% 80%;
+        grid-column: 1 / 2;
+    }
+
+.formulario-btn {
+    width: 20%;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    color: white;
+    background-color: #007FFF;
+    font-weight: bold;
+}
+
+    .formulario-btn:hover {
+        background-color: dodgerblue;
+    }

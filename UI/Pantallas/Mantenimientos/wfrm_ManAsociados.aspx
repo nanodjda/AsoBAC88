@@ -60,8 +60,26 @@
             </header>
             <%--***********************************************************Principal******************************************************************--%>
             <main>
-                <div class="contenido-central">
-                    
+                <div class="contenedor-asociados">
+                    <h2>Datos del asociado</h2>
+                    <br />
+                    <section class="formulario-asociados">
+                        <asp:Label runat="server" Text="Usuario"></asp:Label>
+                        <asp:TextBox ID="txtUsuID" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Cédula"></asp:Label>
+                        <asp:TextBox ID="txtCedula" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Primer Nombre"></asp:Label>
+                        <asp:TextBox ID="txtNombre1" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Segundo Nombre"></asp:Label>
+                        <asp:TextBox ID="txtNombre2" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Primer Apellido"></asp:Label>
+                        <asp:TextBox ID="txtApellido1" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Segundo Apellido"></asp:Label>
+                        <asp:TextBox ID="txtApellido2" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Correo electrónico"></asp:Label>
+                        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                        <asp:Button ID="btn_Enviar" runat="server" Text="Registrar" CssClass="formulario-btn" OnClick="btn_Enviar_Click" />
+                    </section>
                 </div>
             </main>
             <%--***********************************************************Pie de página****************************************************************--%>

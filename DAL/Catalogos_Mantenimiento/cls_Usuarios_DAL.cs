@@ -12,6 +12,7 @@ namespace DAL.Catalogos_Mantenimiento
         #region VARIABLES PRIVADAS
 
         private string _sUsuarioID,
+                        _sCedula,
                         _sNombre,
                         _sNombre2,
                         _sApellido1,
@@ -28,6 +29,7 @@ namespace DAL.Catalogos_Mantenimiento
 
         #region CONSTRUCTORES O VARIABLES PUBLICAS
         public string sUsuarioID { get => _sUsuarioID; set => _sUsuarioID = value; }
+        public string sCedula { get => _sCedula; set => _sCedula = value; }
         public string sNombre { get => _sNombre; set => _sNombre = value; }
         public string sNombre2 { get => _sNombre2; set => _sNombre2 = value; }
         public string sApellido1 { get => _sApellido1; set => _sApellido1 = value; }
