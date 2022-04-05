@@ -50,7 +50,7 @@ p {
 
 /* MANTENIMIENTO DE USUARIOS / REGISTRO DE ASOCIADOS */
 
-.contenedor-asociados {
+.contenedor{
     width: 40%;
     margin: 30px auto 0 auto;
     padding: 50px;
@@ -59,7 +59,7 @@ p {
     text-align:center;
 }
 
-.formulario-asociados {
+.formulario {
     display:grid;
     grid-template-columns: 1fr 2fr 0.3fr;
     grid-row-gap: 2em;
@@ -67,19 +67,32 @@ p {
     justify-items:end;
 }
 
-    .formulario-asociados > input[type=text] {
+    .formulario > input[type=text] {
         width: 80%;
         background-color: #f3f1f1;
         border-radius: 6px;
         grid-column: 2 / 3;
     }
 
-    .formulario-asociados > input[type=submit] {
+    .formulario > input[type=submit] {
         width: 60%;
         grid-column: 2 / 3;
     }
 
-    .formulario-asociados > span {
+        .formulario > input[type=submit].consulta {
+            width: 100%;
+            grid-column: 3/4;
+        }
+
+    .formulario .combo {
+        margin: 0 1em 0 1em;
+        height: 40px; 
+        width: 100%;
+        grid-column: 1 / 3;
+        align-self: end;
+    }
+
+    .formulario > span {
         width: 20% 80%;
         grid-column: 1 / 2;
     }

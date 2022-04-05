@@ -60,10 +60,10 @@
             </header>
             <%--***********************************************************Principal******************************************************************--%>
             <main>
-                <div class="contenedor-asociados">
+                <div class="contenedor">
                     <h2>Datos del asociado</h2>
                     <br />
-                    <section class="formulario-asociados">
+                    <section class="formulario">
                         <asp:Label runat="server" Text="Usuario"></asp:Label>
                         <asp:TextBox ID="txtUsuID" runat="server"></asp:TextBox>
                         <asp:Label runat="server" Text="Cédula"></asp:Label>
