@@ -33,22 +33,22 @@ namespace UI.Pantallas.Mantenimientos
         protected global::System.Web.UI.WebControls.Menu menu_header;
 
         /// <summary>
-        /// Control lblNomCred.
+        /// Control lblNomCredNuevo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNomCred;
+        protected global::System.Web.UI.WebControls.Label lblNomCredNuevo;
 
         /// <summary>
-        /// Control txtNomCred.
+        /// Control txtNomCredNuevo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNomCred;
+        protected global::System.Web.UI.WebControls.TextBox txtNomCredNuevo;
 
         /// <summary>
         /// Control lblTasa.
@@ -60,13 +60,13 @@ namespace UI.Pantallas.Mantenimientos
         protected global::System.Web.UI.WebControls.Label lblTasa;
 
         /// <summary>
-        /// Control txtTasa.
+        /// Control txtTasaNuevo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTasa;
+        protected global::System.Web.UI.WebControls.TextBox txtTasaNuevo;
 
         /// <summary>
         /// Control lblPlazoMin.
@@ -78,13 +78,13 @@ namespace UI.Pantallas.Mantenimientos
         protected global::System.Web.UI.WebControls.Label lblPlazoMin;
 
         /// <summary>
-        /// Control txtPlazoMin.
+        /// Control txtPlazoMinNuevo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPlazoMin;
+        protected global::System.Web.UI.WebControls.TextBox txtPlazoMinNuevo;
 
         /// <summary>
         /// Control lblPlazoMax.
@@ -96,22 +96,22 @@ namespace UI.Pantallas.Mantenimientos
         protected global::System.Web.UI.WebControls.Label lblPlazoMax;
 
         /// <summary>
-        /// Control txtPlazoMax.
+        /// Control txtPlazoMaxNuevo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPlazoMax;
+        protected global::System.Web.UI.WebControls.TextBox txtPlazoMaxNuevo;
 
         /// <summary>
-        /// Control btnInsertCred.
+        /// Control btnInsertCredNuevo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnInsertCred;
+        protected global::System.Web.UI.WebControls.Button btnInsertCredNuevo;
 
         /// <summary>
         /// Control cmbCreditosC.

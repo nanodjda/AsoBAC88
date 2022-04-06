@@ -102,6 +102,11 @@ namespace BLL.BD
                                     SqlDBT = SqlDbType.DateTime;
                                     break;
                                 }
+                            case "13":
+                                {
+                                    SqlDBT = SqlDbType.SmallInt;
+                                    break;
+                                }
                             default:
                                 {
                                     SqlDBT = SqlDbType.VarChar;
@@ -232,6 +237,11 @@ namespace BLL.BD
                             case "12":
                                 {
                                     SqlDBT = SqlDbType.DateTime;
+                                    break;
+                                }
+                            case "13":
+                                {
+                                    SqlDBT = SqlDbType.SmallInt;
                                     break;
                                 }
                             default:

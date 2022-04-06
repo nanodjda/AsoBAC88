@@ -80,15 +80,15 @@
                                 <h2>Crear un nuevo tipo de crédito</h2>
                                 <br />
                                 <section class="formulario">
-                                    <asp:Label ID="lblNomCred" runat="server" Text="Nombre para el crédito."></asp:Label>
-                                    <asp:TextBox ID="txtNomCred" runat="server"></asp:TextBox>
+                                    <asp:Label ID="lblNomCredNuevo" runat="server" Text="Nombre para el crédito."></asp:Label>
+                                    <asp:TextBox ID="txtNomCredNuevo" runat="server"></asp:TextBox>
                                     <asp:Label ID="lblTasa" runat="server" Text="Elija la tasa de interés"></asp:Label>
-                                    <asp:TextBox ID="txtTasa" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtTasaNuevo" runat="server"></asp:TextBox>
                                     <asp:Label ID="lblPlazoMin" runat="server" Text="Plazo Minimo"></asp:Label>
-                                    <asp:TextBox ID="txtPlazoMin" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtPlazoMinNuevo" runat="server"></asp:TextBox>
                                     <asp:Label ID="lblPlazoMax" runat="server" Text="Plazo Máximo"></asp:Label>
-                                    <asp:TextBox ID="txtPlazoMax" runat="server"></asp:TextBox>
-                                    <asp:Button ID="btnInsertCred" runat="server" Text="Crear" CssClass="formulario-btn"/>
+                                    <asp:TextBox ID="txtPlazoMaxNuevo" runat="server"></asp:TextBox>
+                                    <asp:Button ID="btnInsertCredNuevo" runat="server" Text="Crear" CssClass="formulario-btn" OnClick="btnInsertCred_Click"/>
                                 </section>
                             </div>
                         </div>

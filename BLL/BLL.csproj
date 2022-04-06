@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD\cls_BD_BLL.cs" />
+    <Compile Include="Catalogos_Mantenimiento\cls_CreditosT_BLL.cs" />
     <Compile Include="Catalogos_Mantenimiento\cls_Usuarios_BLL.cs" />
     <Compile Include="Mail\cls_Mail_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
