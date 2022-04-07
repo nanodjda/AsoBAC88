@@ -4,18 +4,24 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Mantenimiento - Ahorros</title>
     <link href="../../css/mantenimientos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="../../jquery-ui-1.13.1/jquery-3.6.0.js"></script>
+    <script src="../../jquery-ui-1.13.1/jquery-ui.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="main">
             <%--***********************************************************Encabezado****************************************************************--%>
-           <header>
+            <header>
                 <div id="encabezado">
                     <div class="logo">
-                        <a href="../Generales/wfrm_Principal.aspx"><img src="../../imagenes/logo.png" width="200" /></a>
+                        <a href="../Generales/wfrm_Principal.aspx">
+                            <img src="../../imagenes/logo.png" width="200" /></a>
                     </div>
                     <div class="titulo">
                         <h1>Mantenimiento de Ahorros</h1>
@@ -60,8 +66,109 @@
             </header>
             <%--***********************************************************Principal******************************************************************--%>
             <main>
-                <div class="contenido-central">
-                    
+                <div id="menu">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Crear Nuevo Tipo de Ahorro</a></li>
+                            <li><a href="#tabs-2">Consultar Ahorro</a></li>
+                            <li><a href="#tabs-3">Modificar Ahorro</a></li>
+                            <li><a href="#tabs-4">Inactivar Ahorro</a></li>
+                        </ul>
+                        <%--****************************************************************Tab 1******************************************************************--%>
+                        <div id="tabs-1" class="tab">
+                            <div class="contenedor">
+                                <h2>Crear un nuevo tipo de ahorro</h2>
+                                <br />
+                                <section class="formulario">
+                                    <asp:Label runat="server" Text="Nombre para el ahorro:"></asp:Label>
+                                    <asp:TextBox ID="txtNomAhorroNuevo" runat="server"></asp:TextBox>
+                                    <asp:Label runat="server" Text="Seleccione:"></asp:Label>
+                                    <asp:CheckBoxList ID="chkDatos" runat="server">
+                                        <asp:ListItem>Porcentaje o Monto</asp:ListItem>
+                                        <asp:ListItem>Retiro Extra</asp:ListItem>
+                                        <asp:ListItem>Penalización</asp:ListItem>
+                                    </asp:CheckBoxList>
+                                    <asp:Label runat="server" Text="Plazo"></asp:Label>
+                                    <asp:TextBox ID="txtPlazoAhorroNuevo" runat="server"></asp:TextBox>
+                                    <asp:Label runat="server" Text="Porcentaje ahorro"></asp:Label>
+                                    <asp:TextBox ID="txtPorAhorroNuevo" runat="server"></asp:TextBox>
+                                    <asp:Button ID="btnInsertCredNuevo" runat="server" Text="Crear" CssClass="formulario-btn" OnClick="btnInsertCred_Click" />
+                                </section>
+                            </div>
+                        </div>
+                        <%--****************************************************************Tab 2******************************************************************--%>
+                        <div id="tabs-2" class="tab">
+                            <div class="contenedor">
+                                <h2>Ahorro a consultar: </h2>
+                                <section class="formulario">
+                                    <asp:DropDownList CssClass="combo" ID="cmbAhorroC" runat="server"></asp:DropDownList>
+                                    <asp:Button CssClass="formulario-btn consulta" ID="btnConsultarC" runat="server" Text="Consultar" OnClick="btnConsultarC_Click" />
+                                </section>
+                            </div>
+                            <div class="contenedor">
+                                <section class="formulario">
+                                    <asp:Label runat="server" Text="Nombre del ahorro:"></asp:Label>
+                                    <asp:TextBox ID="txtNomAhorroC" runat="server"></asp:TextBox>
+                                    <asp:Label runat="server" Text="Seleccione:"></asp:Label>
+                                    <asp:CheckBoxList ID="chkDatosC" runat="server">
+                                        <asp:ListItem>Porcentaje o Monto</asp:ListItem>
+                                        <asp:ListItem>Retiro Extra</asp:ListItem>
+                                        <asp:ListItem>Penalización</asp:ListItem>
+                                    </asp:CheckBoxList>
+                                    <asp:Label runat="server" Text="Plazo"></asp:Label>
+                                    <asp:TextBox ID="txtPlazoAhorroC" runat="server"></asp:TextBox>
+                                    <asp:Label runat="server" Text="Porcentaje ahorro"></asp:Label>
+                                    <asp:TextBox ID="txtPorAhorroC" runat="server"></asp:TextBox>
+                                </section>
+                            </div>
+                        </div>
+                        <%--****************************************************************Tab 3******************************************************************--%>
+                        <div id="tabs-3" class="tab">
+                            <div class="contenedor">
+                                <h2>Ahorro a modificar: </h2>
+                                <section class="formulario">
+                                    <asp:DropDownList CssClass="combo" ID="cmbAhorroM" runat="server"></asp:DropDownList>
+                                    <asp:Button CssClass="formulario-btn consulta" ID="btnConsultarM" runat="server" Text="Consultar" />
+                                </section>
+                            </div>
+                            <div class="contenedor">
+                                <section class="formulario">
+                                    <%--<asp:Label ID="Label4" runat="server" Text="Nombre para el crédito."></asp:Label>
+                                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                    <asp:Label ID="Label5" runat="server" Text="Elija la tasa de interés"></asp:Label>
+                                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                                    <asp:Label ID="Label6" runat="server" Text="Plazo Minimo"></asp:Label>
+                                    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                                    <asp:Label ID="Label12" runat="server" Text="Plazo Máximo"></asp:Label>
+                                    <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+                                    <asp:Button ID="Button2" runat="server" Text="Modificar" />--%>
+                                </section>
+                            </div>
+                        </div>
+                        <%--****************************************************************Tab 4******************************************************************--%>
+                        <div id="tabs-4" class="tab">
+                            <div class="contenedor">
+                                <h2>Ahorro a inactivar: </h2>
+                                <section class="formulario">
+                                    <asp:DropDownList CssClass="combo" ID="cmbAhorroE" runat="server"></asp:DropDownList>
+                                    <asp:Button CssClass="formulario-btn consulta" ID="btnConsultarE" runat="server" Text="Consultar" />
+                                </section>
+                            </div>
+                            <div class="contenedor">
+                                <section class="formulario">
+                                    <%--<asp:Label ID="Label7" runat="server" Text="Nombre del crédito."></asp:Label>
+                                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                                    <asp:Label ID="Label8" runat="server" Text="Tasa de interés"></asp:Label>
+                                    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                                    <asp:Label ID="Label9" runat="server" Text="Plazo Minimo"></asp:Label>
+                                    <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                                    <asp:Label ID="Label11" runat="server" Text="Plazo Máximo"></asp:Label>
+                                    <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+                                    <asp:Button ID="Button5" runat="server" Text="Eliminar" />--%>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
             <%--***********************************************************Pie de página****************************************************************--%>

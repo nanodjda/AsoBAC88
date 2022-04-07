@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD\cls_BD_DAL.cs" />
+    <Compile Include="Catalogos_Mantenimiento\cls_AhorrosT_DAL.cs" />
     <Compile Include="Catalogos_Mantenimiento\cls_CreditosT_DAL.cs" />
     <Compile Include="Catalogos_Mantenimiento\cls_Usuarios_DAL.cs" />
     <Compile Include="Mail\cls_Mail_DAL.cs" />
