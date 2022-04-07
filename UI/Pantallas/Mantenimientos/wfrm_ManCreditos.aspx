@@ -108,9 +108,9 @@
                                     <asp:Label ID="Label2" runat="server" Text="Tasa de interés"></asp:Label>
                                     <asp:TextBox ID="txtTasaInteres" runat="server"></asp:TextBox>
                                     <asp:Label ID="Label3" runat="server" Text="Plazo Minimo"></asp:Label>
-                                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtPlazoMin" runat="server"></asp:TextBox>
                                     <asp:Label ID="Label10" runat="server" Text="Plazo Máximo"></asp:Label>
-                                    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtPlazoMax" runat="server"></asp:TextBox>
                                 </section>
                             </div>
                         </div>

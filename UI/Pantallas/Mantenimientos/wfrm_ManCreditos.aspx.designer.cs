@@ -177,13 +177,13 @@ namespace UI.Pantallas.Mantenimientos
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control txtPlazoMin.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtPlazoMin;
 
         /// <summary>
         /// Control Label10.
@@ -195,13 +195,13 @@ namespace UI.Pantallas.Mantenimientos
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Control TextBox8.
+        /// Control txtPlazoMax.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox txtPlazoMax;
 
         /// <summary>
         /// Control cmbCreditosM.
