@@ -68,5 +68,48 @@ namespace BLL.Catalogos_Mantenimiento
             obj_CT_DAL.sMsjError = Obj_BD_DAL.sMsjError;
         }
 
+        public void FiltrarCreditos (ref cls_CreditosT_DAL obj_CT_DAL)
+        {
+            cls_BD_DAL Obj_BD_DAL = new cls_BD_DAL();
+            cls_BD_BLL Obj_BD_BLL = new cls_BD_BLL();
+
+            if (obj_CT_DAL.sDescripcionTipo  == string.Empty)
+            {
+                
+            }
+            else
+            {
+                Obj_BD_DAL.sNombreTabla = "[SCH_CREDITOS].[CREDITOS_TIPOS]";
+                Obj_BD_DAL.sNombreSP = @"[SCH_CREDITOS].[SP_FILTRAR_TIPOS_CREDITOS]";
+                Obj_BD_DAL.cAxn = 'S';
+
+
+                #region CREAR DT PARAMETROS
+
+                Obj_BD_DAL.DtParametros = new DataTable("PARAMETROS");
+
+                Obj_BD_DAL.DtParametros.Columns.Add("NOMB_PARAM");
+                Obj_BD_DAL.DtParametros.Columns.Add("DATATYPE_PARAM");
+                Obj_BD_DAL.DtParametros.Columns.Add("VALOR_PARAM");
+
+                Obj_BD_DAL.DtParametros.Rows.Add(@"@EstadoID", "5", obj_CT_DAL.iEstadoID);
+                Obj_BD_DAL.DtParametros.Rows.Add(@"@TasaInteres", "5", obj_CT_DAL.iTasaInteres);
+                Obj_BD_DAL.DtParametros.Rows.Add(@"@PlazoMin", "13", obj_CT_DAL.iPlazoMin);
+                Obj_BD_DAL.DtParametros.Rows.Add(@"@PlazoMax", "13", obj_CT_DAL.iPlazoMax);
+                Obj_BD_DAL.DtParametros.Rows.Add(@"@DescTipo", "3", obj_CT_DAL.sDescripcionTipo);
+
+                
+
+                #endregion
+
+                Obj_BD_DAL.DtParametros.Rows.Add("@Filtro", "3", obj_CT_DAL.sDescripcionTipo);
+
+                Obj_BD_BLL.ExecDataAdapter(ref Obj_BD_DAL);
+
+                Obj_BD_DAL.DtParametros = Obj_BD_DAL.Ds.Tables[0];
+                Obj_BD_DAL.sMsjError = Obj_BD_DAL.sMsjError;
+            }
+        }
+
     }
 }

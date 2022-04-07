@@ -98,7 +98,7 @@
                                 <h2>Crédito a consultar: </h2>
                                 <section class="formulario">
                                     <asp:DropDownList CssClass="combo" ID="cmbCreditosC" runat="server"></asp:DropDownList>
-                                    <asp:Button CssClass="formulario-btn consulta" ID="btnConsultarC" runat="server" Text="Consultar Crédito"/>
+                                    <asp:Button CssClass="formulario-btn consulta" ID="btnConsultarC" runat="server" Text="Consultar Crédito" OnClick="btnConsultarC_Click"/>
                                 </section>
                             </div>
                             <div class="contenedor">

@@ -35,5 +35,12 @@ namespace UI.Pantallas.Mantenimientos
 
             obj_CT_BLL.InsertarTipoCredito(ref obj_CT_DAL);
         }
+
+        protected void btnConsultarC_Click(object sender, EventArgs e)
+        {
+            obj_CT_BLL.FiltrarCreditos(ref obj_CT_DAL);
+
+
+        }
     }
 }
