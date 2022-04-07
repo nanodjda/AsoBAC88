@@ -16,7 +16,7 @@ GO
 
 CREATE PROCEDURE [SCH_CREDITOS].[SP_FILTRAR_TIPOS_CREDITOS]
 (
-	@Filtro smallint
+	@Filtro varchar(50)
 )
 AS
 BEGIN
