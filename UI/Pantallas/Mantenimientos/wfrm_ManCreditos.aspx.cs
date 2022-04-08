@@ -49,7 +49,7 @@ namespace UI.Pantallas.Mantenimientos
         protected void btnConsultarC_Click(object sender, EventArgs e)
         {
             obj_CT_DAL.sDescripcionTipo = cmbCreditosC.SelectedItem.Text;
-            obj_CT_BLL.ListarCreditos(ref obj_CT_DAL);
+            obj_CT_BLL.FiltrarCreditos(ref obj_CT_DAL);
 
             txtNombreCredito.Text = obj_CT_DAL.dt.Rows[0][5].ToString();
             txtTasaInteres.Text = obj_CT_DAL.dt.Rows[0][2].ToString();
