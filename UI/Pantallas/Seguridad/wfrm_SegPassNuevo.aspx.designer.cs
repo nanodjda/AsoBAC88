@@ -11,7 +11,7 @@ namespace UI.Pantallas.Seguridad
 {
 
 
-    public partial class wfrm_SegRecuperarPass
+    public partial class wfrm_SegPassNuevo
     {
 
         /// <summary>
@@ -24,21 +24,39 @@ namespace UI.Pantallas.Seguridad
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control txtCorreoPass.
+        /// Control txtPassViejo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCorreoPass;
+        protected global::System.Web.UI.WebControls.TextBox txtPassViejo;
 
         /// <summary>
-        /// Control btn_RecuperarPass.
+        /// Control txtPassNuevo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_RecuperarPass;
+        protected global::System.Web.UI.WebControls.TextBox txtPassNuevo;
+
+        /// <summary>
+        /// Control txtPassNuevoC.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPassNuevoC;
+
+        /// <summary>
+        /// Control btn_Enviar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Enviar;
     }
 }

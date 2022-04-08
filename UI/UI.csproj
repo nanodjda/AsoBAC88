@@ -161,6 +161,7 @@
     <Content Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx" />
     <Content Include="Pantallas\Seguridad\wfrm_SegLogin.aspx" />
     <Content Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegPassNuevo.aspx" />
     <Content Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx" />
     <Content Include="Pantallas\Seguridad\wfrm_SegRecuperarPass.aspx" />
     <Content Include="Pantallas\Seguridad\wfrm_SegUsuarios.aspx" />
@@ -285,6 +286,13 @@
     </Compile>
     <Compile Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx.designer.cs">
       <DependentUpon>wfrm_SegAccesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegPassNuevo.aspx.cs">
+      <DependentUpon>wfrm_SegPassNuevo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegPassNuevo.aspx.designer.cs">
+      <DependentUpon>wfrm_SegPassNuevo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx.cs">
       <DependentUpon>wfrm_SegPlanilla.aspx</DependentUpon>

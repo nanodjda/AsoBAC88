@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_SegRecuperarPass.aspx.cs" Inherits="UI.Pantallas.Seguridad.wfrm_SegRecuperarPass" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_SegPassNuevo.aspx.cs" Inherits="UI.Pantallas.Seguridad.wfrm_SegPassNuevo" %>
 
 <!DOCTYPE html>
 
@@ -28,14 +28,19 @@
             <%--***********************************************************Principal******************************************************************--%>
             <main>
                 <div class="contenedor">
-                    <h2>Recuperar contraseña...</h2>
+                    <h2>Generar contraseña nueva</h2>
                     <br />
                     <section class="formulario">
-                        <asp:Label runat="server" Text="Correo electrónico para enviar contraseña temporal..."></asp:Label>
-                        <asp:TextBox ID="txtCorreoPass" runat="server"></asp:TextBox>
-                        <asp:Button ID="btn_RecuperarPass" runat="server" Text="Enviar correo" CssClass="formulario-btn" OnClick="btn_RecuperarPass_Click" />
+                        <asp:Label runat="server" Text="Contraseña vieja o temporal"></asp:Label>
+                        <asp:TextBox ID="txtPassViejo" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Contraseña nueva"></asp:Label>
+                        <asp:TextBox ID="txtPassNuevo" runat="server"></asp:TextBox>
+                        <asp:Label runat="server" Text="Confirmar contraseña nueva"></asp:Label>
+                        <asp:TextBox ID="txtPassNuevoC" runat="server"></asp:TextBox>
+                        <asp:Button ID="btn_Enviar" runat="server" Text="Cambiar" CssClass="formulario-btn" OnClick="btn_Enviar_Click" />
                     </section>
                 </div>
+                <br />
             </main>
             <%--***********************************************************Pie de página****************************************************************--%>
             <footer id="PiePag">

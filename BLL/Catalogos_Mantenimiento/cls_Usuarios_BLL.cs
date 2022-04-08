@@ -54,7 +54,8 @@ namespace BLL.Catalogos_Mantenimiento
                 if (obj_Usuarios_DAL.Dt.Rows[0][0].ToString() == "0")   // Si es 0 es que no se encontró dicho usuario, 1 es que si ya existe
                 {
                     return true;
-                } else
+                }
+                else
                 {
                     return false;
                 }
@@ -111,29 +112,20 @@ namespace BLL.Catalogos_Mantenimiento
 
             Obj_BD_DAL.sNombreTabla = "TABLA USUARIOS";
 
-            if (Obj_Usuarios_DAL.sUsuarioID == string.Empty)
-            {
-                Obj_BD_DAL.sNombreSP = @"[SCH_ADMINISTRATIVO].[SP_LOGIN]";
-                Obj_BD_DAL.cAxn = 'L';
-                Obj_BD_DAL.DtParametros = null;
-            }
-            else
-            {
-                Obj_BD_DAL.sNombreSP = @"[SCH_ADMINISTRATIVO].[SP_LOGIN]";
-                Obj_BD_DAL.cAxn = 'F';
-                #region CREAR DT PARAMETROS
+            Obj_BD_DAL.sNombreSP = @"[SCH_ADMINISTRATIVO].[SP_LOGIN]";
+            Obj_BD_DAL.cAxn = 'F';
+            #region CREAR DT PARAMETROS
 
-                Obj_BD_DAL.DtParametros = new DataTable("PARAMETROS");
+            Obj_BD_DAL.DtParametros = new DataTable("PARAMETROS");
 
-                Obj_BD_DAL.DtParametros.Columns.Add("NOMB_PARAM");
-                Obj_BD_DAL.DtParametros.Columns.Add("DATATYPE_PARAM");
-                Obj_BD_DAL.DtParametros.Columns.Add("VALOR_PARAM");
+            Obj_BD_DAL.DtParametros.Columns.Add("NOMB_PARAM");
+            Obj_BD_DAL.DtParametros.Columns.Add("DATATYPE_PARAM");
+            Obj_BD_DAL.DtParametros.Columns.Add("VALOR_PARAM");
 
-                Obj_BD_DAL.DtParametros.Rows.Add(@"@Usuario", "3", Obj_Usuarios_DAL.sUsuarioID);
-                Obj_BD_DAL.DtParametros.Rows.Add(@"@Contrasenha", "3", Obj_Usuarios_DAL.sClave);
+            Obj_BD_DAL.DtParametros.Rows.Add(@"@Usuario", "3", Obj_Usuarios_DAL.sUsuarioID);
+            Obj_BD_DAL.DtParametros.Rows.Add(@"@Contrasenha", "3", Obj_Usuarios_DAL.sClave);
 
-                #endregion
-            }
+            #endregion
 
             Obj_BD_BLL.ExecDataAdapter(ref Obj_BD_DAL);
 
@@ -149,5 +141,62 @@ namespace BLL.Catalogos_Mantenimiento
 
             Obj_Usuarios_DAL.sMsjError = Obj_BD_DAL.sMsjError;
         }
+
+        public bool VerificaCorreoRecuperacion(ref cls_Usuarios_DAL obj_Usuarios_DAL)
+        {
+            cls_BD_DAL Obj_BD_DAL = new cls_BD_DAL();
+            cls_BD_BLL Obj_BD_BLL = new cls_BD_BLL();
+
+            Obj_BD_DAL.sNombreTabla = "TABLA USUARIOS";
+
+            if (obj_Usuarios_DAL.sEmail == string.Empty)
+            {
+                obj_Usuarios_DAL.sMsjError = "No digito ningun correo.";
+                return false;
+            }
+            else
+            {
+                Obj_BD_DAL.sNombreSP = @"[SCH_ADMINISTRATIVO].[SP_BUSCAR_CORREO]";
+                Obj_BD_DAL.cAxn = 'F';
+                #region CREAR DT PARAMETROS
+
+                Obj_BD_DAL.DtParametros = new DataTable("PARAMETROS");
+
+                Obj_BD_DAL.DtParametros.Columns.Add("NOMB_PARAM");
+                Obj_BD_DAL.DtParametros.Columns.Add("DATATYPE_PARAM");
+                Obj_BD_DAL.DtParametros.Columns.Add("VALOR_PARAM");
+
+                Obj_BD_DAL.DtParametros.Rows.Add(@"@email", "3", obj_Usuarios_DAL.sEmail);
+
+                #endregion
+            }
+
+            Obj_BD_BLL.ExecDataAdapter(ref Obj_BD_DAL);
+
+
+            if (Obj_BD_DAL.sMsjError == string.Empty) // En caso de no obtener un error al ejecutar el SP
+            {
+                obj_Usuarios_DAL.Dt = Obj_BD_DAL.Ds.Tables[0]; //Obtenemos una tabla con una sola columna y fila
+
+                if (obj_Usuarios_DAL.Dt.Rows[0][0].ToString() == "1")   // Si es 0 es que no se encontró dicho usuario, 1 es que si ya existe
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+            else
+            {
+                obj_Usuarios_DAL.Dt = null;
+            }
+
+            obj_Usuarios_DAL.sMsjError = Obj_BD_DAL.sMsjError;
+            return false;
+        }
+
+
     }
 }
