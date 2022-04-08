@@ -1,0 +1,47 @@
+﻿
+@import url('main.css');
+
+.text {
+    font-size: 30px;
+    margin:  0 33%;
+    padding: 30px;
+    border: solid 3px #000000;
+}
+
+#txt_Usuario {
+    background-color: #f3f1f1;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#txt_Pass {
+    background-color: #f3f1f1;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#boton {
+    padding: 20px;
+    text-align:center;
+    font-size: medium
+}
+
+#ResetPass {
+    text-align: end;
+    font-size: 15px;
+}
+#ResetPass a{
+    text-decoration: none;
+}
+
+#ResetPass a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/***********************Imagen****************************************/
+.img p{
+    text-align:center;
+}
+
+
+

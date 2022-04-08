@@ -1,0 +1,74 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*border: solid 1px #000000*/
+}
+
+body {
+    background-image: url('../../Img/fondo-abstracto-onda-blanca-gris-diseno-suave-trabajo-grafico_41084-468.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 150px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*************************Encabezado*************************************/
+
+#encab {
+    background-image: url('../../Img/fondo-blanco-patrones-triangulares_1017-18410.jpg');
+    display: flex;
+    align-items: center;
+    justify-items: baseline;
+}
+
+#encab #titulo {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#salir #salir1 {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 100px 0 0;
+    padding: 0 0 0 100px;
+}
+
+#salir a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/***************************************Botones y TextBox******************************************/
+
+.btn_Gen {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007FFF;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.btn_Gen:hover {
+    background-color: dodgerblue;
+}
+
+.txt_Gen {
+    margin: 20px;
+    background-color: #f3f1f1;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 80%
+}
+/***************************************Pie de página**********************************************/
+
+#PiePag {
+    padding: 20px;
+    text-align: center;
+}
