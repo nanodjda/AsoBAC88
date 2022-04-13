@@ -104,13 +104,13 @@
                             <div class="contenedor">
                                 <section class="formulario">
                                     <asp:Label ID="Label1" runat="server" Text="Nombre del crédito."></asp:Label>
-                                    <asp:TextBox ID="txtNombreCredito" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtNombreCredito" runat="server" ReadOnly="true"></asp:TextBox>
                                     <asp:Label ID="Label2" runat="server" Text="Tasa de interés"></asp:Label>
-                                    <asp:TextBox ID="txtTasaInteres" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtTasaInteres" runat="server" ReadOnly="true"></asp:TextBox>
                                     <asp:Label ID="Label3" runat="server" Text="Plazo Minimo"></asp:Label>
-                                    <asp:TextBox ID="txtPlazoMin" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtPlazoMin" runat="server" ReadOnly="true"></asp:TextBox>
                                     <asp:Label ID="Label10" runat="server" Text="Plazo Máximo"></asp:Label>
-                                    <asp:TextBox ID="txtPlazoMax" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="txtPlazoMax" runat="server" ReadOnly="true"></asp:TextBox>
                                 </section>
                             </div>
                         </div>

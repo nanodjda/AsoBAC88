@@ -18,22 +18,26 @@ namespace UI.Pantallas.Mantenimientos
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            obj_CT_BLL.ListarCreditos(ref obj_CT_DAL);
-            cmbCreditosC.DataSource = obj_CT_DAL.dt;
-            cmbCreditosM.DataSource = obj_CT_DAL.dt;
-            cmbCreditosE.DataSource = obj_CT_DAL.dt;
-            cmbCreditosC.DataTextField = "DESC_TIPO";
-            cmbCreditosM.DataTextField = "DESC_TIPO";
-            cmbCreditosE.DataTextField = "DESC_TIPO";
-            cmbCreditosC.DataValueField = "TIPOCREDITOID";
-            cmbCreditosM.DataValueField = "TIPOCREDITOID";
-            cmbCreditosE.DataValueField = "TIPOCREDITOID";
-            //cmbCreditosC.DataBind();
-            //cmbCreditosM.DataBind();
-            //cmbCreditosE.DataBind();
-            cmbCreditosC.Items.Insert(0, new ListItem("Seleccione..", "-1"));
-            cmbCreditosM.Items.Insert(0, new ListItem("Seleccione..", "-1"));
-            cmbCreditosE.Items.Insert(0, new ListItem("Seleccione..", "-1"));
+            if (cmbCreditosC.Text == string.Empty)
+            {
+                obj_CT_BLL.ListarCreditos(ref obj_CT_DAL);
+                cmbCreditosC.DataSource = obj_CT_DAL.dt;
+                cmbCreditosM.DataSource = obj_CT_DAL.dt;
+                cmbCreditosE.DataSource = obj_CT_DAL.dt;
+                cmbCreditosC.DataTextField = "DESC_TIPO";
+                cmbCreditosM.DataTextField = "DESC_TIPO";
+                cmbCreditosE.DataTextField = "DESC_TIPO";                                   /*Es necesario modificar código para que el sDescripcionTipo no se modifique*/
+                cmbCreditosC.DataValueField = "TIPOCREDITOID";
+                cmbCreditosM.DataValueField = "TIPOCREDITOID";
+                cmbCreditosE.DataValueField = "TIPOCREDITOID";
+                cmbCreditosC.DataBind();
+                cmbCreditosM.DataBind();
+                cmbCreditosE.DataBind();
+                cmbCreditosC.Items.Insert(0, new ListItem("Seleccione..", "-1"));
+                cmbCreditosM.Items.Insert(0, new ListItem("Seleccione..", "-1"));
+                cmbCreditosE.Items.Insert(0, new ListItem("Seleccione..", "-1"));
+            }
+            
         }
 
         protected void btnInsertCred_Click(object sender, EventArgs e)
