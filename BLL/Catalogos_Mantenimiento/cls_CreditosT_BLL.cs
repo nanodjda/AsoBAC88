@@ -47,7 +47,7 @@ namespace BLL.Catalogos_Mantenimiento
             cls_BD_DAL Obj_BD_DAL = new cls_BD_DAL();
             cls_BD_BLL Obj_BD_BLL = new cls_BD_BLL();
 
-            Obj_BD_DAL.sNombreTabla = "TABLA Tipos Credito";
+            Obj_BD_DAL.sNombreTabla = "Tabla Tipos Credito";
 
             
             Obj_BD_DAL.sNombreSP = @"[SCH_CREDITOS].[SP_LISTAR_TIPOS_CREDITOS]";
